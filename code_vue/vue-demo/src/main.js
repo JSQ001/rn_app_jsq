@@ -3,6 +3,11 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import ElementUI from 'element-ui'
+// import { Button, Select } from 'element-ui'//这里我们仅引用了Button, Select这两个组件
+
+Vue.use(ElementUI)
+Vue.config.productionTip = false
 
 Vue.config.productionTip = false
 
