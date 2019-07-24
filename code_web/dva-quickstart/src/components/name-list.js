@@ -8,60 +8,58 @@ class NameList extends React.Component {
     super(props);
     this.state = {
       type: 'list',
-      data: [
-        {id: 1,name: 1,},
-        {id: 1,name: 12,},
-        {id: 1,name: 13,},
-        {id: 1,name: 14,},
-        {id: 1,name: 15,},
-        {id: 1,name: 16,},
-        {id: 1,name: 17,},
-      ],
+      loading: true,
+      data: [],
+      page: 1,
       columns: [
         {
-          dataIndex: 'id',
+          dataIndex: 'first_name',
           title: 'First Name',
           align: 'center',
-          render: recode => <Popover content={recode}>{recode}</Popover>,
+          render: desc => <Popover content={desc}>{desc}</Popover>,
         },
         {
-          dataIndex: 'id',
+          dataIndex: 'last_name',
           title: 'Last Name',
           align: 'center',
-          render: recode => <Popover content={recode}>{recode}</Popover>,
+          render: desc => <Popover content={desc}>{desc}</Popover>,
         },
         {
-          dataIndex: 'id',
+          dataIndex: 'npi',
           title: 'Phone Number',
           align: 'center',
-          render: recode => <Popover content={recode}>{recode}</Popover>,
+          render: desc => <Popover content={desc}>{desc}</Popover>,
         },
         {
-          dataIndex: 'id',
+          dataIndex: 'languages',
           title: 'Language',
           align: 'center',
-          render: recode => <Popover content={recode}>{recode}</Popover>,
+          render: desc => <Popover content={desc[0].name}>{desc[0].name}</Popover>,
         }
       ]
     };
   }
 
-  componentDidMount(){
-    this.getInfo()
+
+  static getDerivedStateFromProps(nextProps, prevState) {
+    const {data} = nextProps;
+    if (JSON.stringify(data) !== JSON.stringify(prevState.data)) {
+      return {
+        data,
+        loading: false
+      };
+    }
+    return null;
   }
 
-  getInfo = ()=>{
-    service.getInfo().then(res=>{
-      console.log(res)
-    })
+  handleChange=(page,size)=>{
+    this.setState({page})
   };
 
-
   render(){
-    const {type, data, columns} = this.state;
-
+    const {type, data, columns, loading,page} = this.state;
     return (
-      <div className='name-list'>
+      <div className='name-list' style={{overflowY: 'scroll', height: '100vh'}}>
         <Row style={{borderBottom: '1px solid',paddingBottom: 2}}>
           <Col span={2} style={{fontSize: 20}}>医生名单</Col>
           <Col span={2} >
@@ -75,9 +73,12 @@ class NameList extends React.Component {
             <CardSvg onClick={()=>this.setState({type: 'card'})}
                      style={{ color: type === 'card' ? '#4A90E2' : '#515151',fontSize: 20, margin: '5px 5px 0px ' }} />
           </Col>
-          <Col span={20}>
-            <Pagination defaultCurrent={1} total={50} />
-          </Col>
+          {
+            type === 'card' &&
+            <Col span={20} style={{textAlign: 'right'}}>
+              <Pagination pageSize={8} onChange={this.handleChange} current={page} total={data.length} />
+            </Col>
+          }
         </Row>
 
         <div className='name-list-content'>
@@ -85,24 +86,61 @@ class NameList extends React.Component {
             type === 'list' ?
               <Table
                 dataSource={data}
+                loading={loading}
                 columns={columns}
               />
               :
               function () {
                 const row = [];
-                const col = data.map((item,index)=>{
+                const col = data.filter((item,index)=>{
+                  if(8*(page-1)<=index&&index<8*page)
+                    return true
+                  return false
+                }).map((item,index)=>{
                   return (
-                    <Col span={5} offset={index%4 ? 1 : 0}>
-                      <Card>
-                        {item.name}
+                    <Col span={4} key={item.npi} offset={index%4 ? 2 : 1}>
+                      <Card
+                        hoverable
+                        size='small'
+                        headStyle={{textAlign: 'center'}}
+                        style={{borderRadius: 20}}
+                        title={<span>
+                          <img style={{borderRadius: '100%'}} src={item.image_url}/>
+                          <div>{item.first_name+" "+ item.middle_name+" "+item.last_name}</div>
+                        </span>}
+                      >
+                       <div style={{
+                         wordBbreak:'keep-all', /* 不换行 */
+                         whiteSpace: 'nowrap' /* 不换行 */
+                       }}>
+                         Phone Number:{item.npi}
+                         </div>
+                       <div>Language: {item.languages[0].name}</div>
+                       <div style={{
+                         height: '100px',
+                         overflow: 'hidden',
+                         textOverflow: 'ellipsis',
+                       }}>
+                         <Popover content={
+                           <div style={{
+                             padding: 20,
+                             width: '40vw',
+                             height: '40vh'
+                           }}>
+                             Bio: ${item.bio}
+                           </div>
+                         }>
+                           Bio: {item.bio}
+                         </Popover>
+                       </div>
                       </Card>
                     </Col>
                   )
                 });
-                for(let i = 0,j=4; i<col.length; i+=4,j+=i ){
+                for(let i = 0,j=4; i<col.length; i+=4,j+=4){
                   row.push(col.slice(i, j));
                 }
-                return row.map((item,index) => <Row key={String(new Date().getTime())+index}>{item}</Row>);
+                return row.map((item,index) =>  <Row style={{marginTop: 30}} key={String(new Date().getTime())+index}>{item}</Row>);
               }()
           }
         </div>

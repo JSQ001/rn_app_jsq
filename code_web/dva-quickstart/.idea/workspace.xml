@@ -2,113 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6626c040-49e9-4ab5-9795-59ad4f658207" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../.idea/work.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bootstrap/.idea/dictionaries/jsq.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bootstrap/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bootstrap/bts001.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bootstrap/全局css样式.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../code_go/anonymous5l-goflow-e5ff9da/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../code_go/anonymous5l-goflow-e5ff9da/app/app.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../code_go/anonymous5l-goflow-e5ff9da/cfg/cfg.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../code_go/anonymous5l-goflow-e5ff9da/cfg/const.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../code_go/anonymous5l-goflow-e5ff9da/cfg/hashfile.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../code_go/anonymous5l-goflow-e5ff9da/cfg/plugin.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../code_go/anonymous5l-goflow-e5ff9da/example/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../code_go/anonymous5l-goflow-e5ff9da/example/config.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../code_go/anonymous5l-goflow-e5ff9da/example/hello_services/service.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../code_go/anonymous5l-goflow-e5ff9da/example/hello_world/hello_world.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../code_go/anonymous5l-goflow-e5ff9da/general/general.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../code_go/anonymous5l-goflow-e5ff9da/goflow.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../code_go/anonymous5l-goflow-e5ff9da/impl/context.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../code_go/anonymous5l-goflow-e5ff9da/impl/request.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../code_go/anonymous5l-goflow-e5ff9da/impl/scope.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../code_go/anonymous5l-goflow-e5ff9da/interfaces/context.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../code_go/anonymous5l-goflow-e5ff9da/interfaces/request.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../code_go/anonymous5l-goflow-e5ff9da/interfaces/scope.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../code_go/anonymous5l-goflow-e5ff9da/plugins/json_params_check/goflow.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../code_go/anonymous5l-goflow-e5ff9da/plugins/json_params_check/json_params_check.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../code_go/anonymous5l-goflow-e5ff9da/utils/errors.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../code_go/anonymous5l-goflow-e5ff9da/utils/random.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../code_go/src/awesomeProject/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../code_go/src/crawler/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../code_go/src/crawler_jsq/parse/parser.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../code_go/src/db_pool/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../code_go/src/db_pool/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../code_go/src/db_pool/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../code_go/src/db_pool/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../code_go/src/db_pool/db/DBConnection.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../code_go/src/db_pool/main/pool.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../code_go/src/db_pool/pool/Pool.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../code_go/src/go_first/main/bibao.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../code_go/src/go_first/main/bufferChannel.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../code_go/src/go_first/main/channelDeadLock.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../code_go/src/go_first/main/channelTest.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../code_go/src/go_first/main/channel实现作业池.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../code_go/src/go_first/main/goroutineCatchExp.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../code_go/src/go_first/main/goroutineTest.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../code_go/src/go_first/main/node.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../code_go/src/go_first/main/panic.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../code_go/src/go_first/main/消费者生产者.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../code_go/src/video_server/fetcher/Fetch.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../code_java/SampleCode/.idea/SampleCode.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../code_java/SampleCode/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../code_java/SampleCode/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../code_java/SampleCode/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../code_java/SampleCode/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../code_java/SampleCode/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../code_java/wx_server/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../code_java/wx_server/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../code_node/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../code_node/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../code_node/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../code_node/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../code_node/src/async_hooks/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../java_trian/src/staticTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../react/dva-doctor-view/.idea/dictionaries/jsq.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../react/dva-doctor-view/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../react/dva-doctor-view/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../react/dva-doctor-view/.roadhogrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../react/dva-doctor-view/.roadhogrc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../react/dva-doctor-view/src/routes/dashboard.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../react_native/react_native_demo/component/account/account.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code_go/go_first/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code_go/go_first/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../code_go/src/db_pool/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code_go/go_first/.idea/go_first.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../code_go/src/db_pool/.idea/pool.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code_go/go_first/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code_go/go_first/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code_go/go_first/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../code_java/SampleCode/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code_go/go_first/main/array.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code_go/go_first/main/file.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code_go/go_first/main/func.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code_go/go_first/main/hello.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code_go/go_first/main/interface.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code_go/go_first/main/map.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code_go/go_first/main/slice.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code_go/go_first/main/struct.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code_go/go_first/resource/abc.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code_go/src/crawler_goroutine/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../code_go/src/crawler_goroutine/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code_go/src/crawler_goroutine/engine/ConcurrentEngine.go" beforeDir="false" afterPath="$PROJECT_DIR$/../../code_go/src/crawler_goroutine/engine/ConcurrentEngine.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code_go/src/crawler_goroutine/main/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/../../code_go/src/crawler_goroutine/main/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code_go/src/crawler_goroutine/scheduler/queued.go" beforeDir="false" afterPath="$PROJECT_DIR$/../../code_go/src/crawler_goroutine/scheduler/queued.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code_go/src/crawler_goroutine/scheduler/readyNotifier.go" beforeDir="false" afterPath="$PROJECT_DIR$/../../code_go/src/crawler_goroutine/scheduler/readyNotifier.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code_go/src/crawler_goroutine/scheduler/scheduler.go" beforeDir="false" afterPath="$PROJECT_DIR$/../../code_go/src/crawler_goroutine/scheduler/scheduler.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code_go/src/crawler_goroutine/scheduler/simple.go" beforeDir="false" afterPath="$PROJECT_DIR$/../../code_go/src/crawler_goroutine/scheduler/simple.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code_go/src/crawler_goroutine/zhenai/parser/city.go" beforeDir="false" afterPath="$PROJECT_DIR$/../../code_go/src/crawler_goroutine/zhenai/parser/city.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code_go/src/crawler_goroutine/zhenai/parser/citylist.go" beforeDir="false" afterPath="$PROJECT_DIR$/../../code_go/src/crawler_goroutine/zhenai/parser/citylist.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code_go/src/crawler_goroutine/zhenai/parser/profile.go" beforeDir="false" afterPath="$PROJECT_DIR$/../../code_go/src/crawler_goroutine/zhenai/parser/profile.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code_go/src/crawler_jsq/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../code_go/src/crawler_jsq/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code_go/src/crawler_jsq/fethcer/fecther.go" beforeDir="false" afterPath="$PROJECT_DIR$/../../code_go/src/crawler_jsq/fethcer/fecther.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code_go/src/crawler_jsq/from_db/db.go" beforeDir="false" afterPath="$PROJECT_DIR$/../../code_go/src/crawler_jsq/from_db/db.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code_go/src/crawler_jsq/from_url/url.go" beforeDir="false" afterPath="$PROJECT_DIR$/../../code_go/src/crawler_jsq/from_url/url.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code_go/src/crawler_jsq/main/mian.go" beforeDir="false" afterPath="$PROJECT_DIR$/../../code_go/src/crawler_jsq/main/mian.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code_go/src/go_first/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../code_go/src/go_first/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bootstrap/bts001.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../bootstrap/bts001.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bootstrap/全局css样式.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../bootstrap/全局css样式.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../code_go/src/video_server/main/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/../../code_go/src/video_server/main/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../code_go/src/video_server/viewHandler/av.go" beforeDir="false" afterPath="$PROJECT_DIR$/../../code_go/src/video_server/viewHandler/av.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../code_go/src/video_server/viewHandler/hi.go" beforeDir="false" afterPath="$PROJECT_DIR$/../../code_go/src/video_server/viewHandler/hi.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../code_go/src/video_server/viewHandler/viewHandler.go" beforeDir="false" afterPath="$PROJECT_DIR$/../../code_go/src/video_server/viewHandler/viewHandler.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../code_java/SampleCode/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../code_java/SampleCode/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../code_java/code_java.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../code_java/wx_server/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../code_java/wx_server/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../code_java/wx_server/.idea/dictionaries/jsq.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../code_java/wx_server/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../code_java/wx_server/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../code_java/wx_server/src/main/com/aes/.WXBizMsgCrypt.java.swp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../code_java/wx_server/src/main/com/aes/AesException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../code_java/wx_server/src/main/com/aes/ByteGroup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../code_java/wx_server/src/main/com/aes/PKCS7Encoder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../code_java/wx_server/src/main/com/aes/SHA1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../code_java/wx_server/src/main/com/aes/WXBizMsgCrypt.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../code_java/wx_server/src/main/com/aes/XMLParse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../code_java/wx_server/src/main/com/jsq/controller/test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../code_node/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../code_node/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../code_node/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../code_node/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../code_node/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../code_node/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../code_node/src/async_hooks/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../code_node/src/async_hooks/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../code_vue/router-demo_wisewrong/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../code_vue/router-demo_wisewrong/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../code_vue/router-demo_wisewrong/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../../code_vue/router-demo_wisewrong/src/App.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../code_vue/video-vue/.eslintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../code_vue/video-vue/.eslintrc.js" afterDir="false" />
@@ -130,6 +46,16 @@
       <change beforePath="$PROJECT_DIR$/../../code_vue/vue-demo/src/components/Login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../../code_vue/vue-demo/src/components/Login.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../code_vue/vue-demo/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../code_vue/vue-demo/src/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../code_vue/vue-demo/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../code_vue/vue-demo/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/name-list.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/name-list.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/BasicLayout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/BasicLayout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java_trian/src/staticTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java_trian/src/staticTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../react/dva-doctor-view/.roadhogrc" beforeDir="false" afterPath="$PROJECT_DIR$/../../react/dva-doctor-view/.roadhogrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../react/dva-doctor-view/src/routes/dashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../react/dva-doctor-view/src/routes/dashboard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../react_native/react_native_demo/component/account/account.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../react_native/react_native_demo/component/account/account.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -205,7 +131,7 @@
         <counts>
           <entry key="css" value="2" />
           <entry key="ejs" value="1" />
-          <entry key="js" value="52" />
+          <entry key="js" value="54" />
           <entry key="json" value="1" />
           <entry key="scss" value="1" />
           <entry key="style" value="1" />
@@ -218,7 +144,7 @@
           <entry key="CSS" value="2" />
           <entry key="EJS" value="1" />
           <entry key="JSON" value="1" />
-          <entry key="JavaScript" value="52" />
+          <entry key="JavaScript" value="54" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="SCSS" value="1" />
           <entry key="TypeScript" value="3" />
@@ -229,8 +155,8 @@
           <entry key="css" value="1" />
           <entry key="dummy" value="5" />
           <entry key="ejs" value="6" />
-          <entry key="js" value="4009" />
-          <entry key="json" value="2" />
+          <entry key="js" value="5382" />
+          <entry key="json" value="4" />
           <entry key="scss" value="27" />
         </counts>
       </usages-collector>
@@ -238,8 +164,8 @@
         <counts>
           <entry key="CSS" value="1" />
           <entry key="EJS" value="6" />
-          <entry key="JSON" value="2" />
-          <entry key="JavaScript" value="4009" />
+          <entry key="JSON" value="4" />
+          <entry key="JavaScript" value="5382" />
           <entry key="PLAIN_TEXT" value="5" />
           <entry key="SCSS" value="27" />
         </counts>
@@ -251,7 +177,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/container.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
+            <state relative-caret-position="-1412">
               <caret line="49" column="3" selection-start-line="49" selection-start-column="3" selection-end-line="49" selection-end-column="3" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
@@ -264,17 +190,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/services/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="447">
-              <caret line="21" column="9" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="9" />
+            <state relative-caret-position="410">
+              <caret line="22" column="162" selection-start-line="22" selection-start-column="162" selection-end-line="22" selection-end-column="162" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/data-analysis.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="262">
+              <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -282,11 +208,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/name-list.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+            <state relative-caret-position="193">
+              <caret line="60" selection-start-line="60" selection-end-line="60" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+                <element signature="e#1637#2121#0" />
+                <element signature="e#2338#2429#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -296,20 +227,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="280">
               <caret line="37" column="4" selection-start-line="37" selection-start-column="4" selection-end-line="37" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/layouts/BasicLayout.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="101">
-              <caret line="67" selection-start-line="67" selection-end-line="67" />
-              <folding>
-                <element signature="e#40#66#0" expanded="true" />
-                <element signature="e#229#262#0" expanded="true" />
-                <element signature="e#411#719#0" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -357,9 +274,16 @@
       <find>getComponent</find>
       <find>getNavMenuItems</find>
       <find>col.l</find>
-      <find>ej</find>
+      <find>@babel/runtime/helpers/esm/assertThisInitialized</find>
+      <find>babel-plugin-import</find>
+      <find>recode</find>
       <find>reloadRoutes</find>
+      <find>ej</find>
+      <find>console</find>
     </findStrings>
+    <replaceStrings>
+      <replace>desc</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
@@ -398,16 +322,16 @@
         <option value="$PROJECT_DIR$/src/components/Example.js" />
         <option value="$PROJECT_DIR$/src/models/menu.js" />
         <option value="$PROJECT_DIR$/src/services/example.js" />
-        <option value="$PROJECT_DIR$/src/layouts/BasicLayout.js" />
         <option value="$PROJECT_DIR$/src/utils/request.js" />
         <option value="$PROJECT_DIR$/.webpackrc.js" />
         <option value="$PROJECT_DIR$/src/index.ejs" />
-        <option value="$PROJECT_DIR$/src/services/index.js" />
         <option value="$PROJECT_DIR$/src/container.js" />
         <option value="$PROJECT_DIR$/src/images/svg-card.js" />
-        <option value="$PROJECT_DIR$/src/components/name-list.js" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/components/data-analysis.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/src/services/index.js" />
+        <option value="$PROJECT_DIR$/src/layouts/BasicLayout.js" />
+        <option value="$PROJECT_DIR$/src/components/name-list.js" />
       </list>
     </option>
   </component>
@@ -458,49 +382,6 @@
             <path>
               <item name="dva-quickstart" type="b2602c69:ProjectViewProjectNode" />
               <item name="dva-quickstart" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dva-quickstart" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dva-quickstart" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dva-quickstart" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dva-quickstart" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="echarts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dva-quickstart" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dva-quickstart" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="echarts" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dva-quickstart" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dva-quickstart" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="echarts" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dva-quickstart" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dva-quickstart" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="echarts" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="helper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dva-quickstart" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dva-quickstart" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="echarts" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dva-quickstart" type="b2602c69:ProjectViewProjectNode" />
@@ -629,12 +510,12 @@
       <workItem from="1563862860533" duration="7684000" />
       <workItem from="1563872969635" duration="4000" />
       <workItem from="1563873023291" duration="166000" />
-      <workItem from="1563873298056" duration="29390000" />
+      <workItem from="1563873298056" duration="45672000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60678000" />
+    <option name="totallyTimeSpent" value="76960000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -644,18 +525,20 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="SVN Repositories" weight="0.32959184" />
+      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32959184" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32959184" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32857144" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32959184" />
       <window_info anchor="bottom" id="TypeScript" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32959184" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.37755102" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -870,17 +753,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/container.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="49" column="3" selection-start-line="49" selection-start-column="3" selection-end-line="49" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-            <element signature="e#3543#3582#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/sideMenu/SideMenu.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1793">
@@ -894,10 +766,61 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/echarts/lib/util/nest.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/echarts/lib/data/helper/linkList.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/dva/node_modules/react-redux/es/components/connectAdvanced.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#70#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="25" column="24" lean-forward="true" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/container.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1412">
+          <caret line="49" column="3" selection-start-line="49" selection-start-column="3" selection-end-line="49" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+            <element signature="e#3543#3582#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/data-analysis.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/services/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="22" column="162" selection-start-line="22" selection-start-column="162" selection-end-line="22" selection-end-column="162" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/layouts/BasicLayout.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="67" selection-start-line="67" selection-end-line="67" />
+        <state relative-caret-position="-21">
+          <caret line="57" column="53" selection-start-line="57" selection-start-column="50" selection-end-line="57" selection-end-column="53" />
           <folding>
             <element signature="e#40#66#0" expanded="true" />
             <element signature="e#229#262#0" expanded="true" />
@@ -913,42 +836,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/services/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="21" column="9" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/name-list.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1592">
-          <caret line="116" column="23" lean-forward="true" selection-start-line="116" selection-start-column="23" selection-end-line="116" selection-end-column="23" />
+        <state relative-caret-position="193">
+          <caret line="60" selection-start-line="60" selection-end-line="60" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/echarts/lib/util/nest.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/echarts/lib/data/helper/linkList.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/data-analysis.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#1637#2121#0" />
+            <element signature="e#2338#2429#0" />
           </folding>
         </state>
       </provider>

@@ -9,6 +9,7 @@ import SideMenu from '../components/sideMenu'
 import '../styles/dashboard.scss'
 import { Link } from 'dva/router';
 import menu from "../models/menu";
+import service from "../services";
 const { Header, Sider, Content } = Layout;
 const { SubMenu } = Menu;
 
@@ -43,15 +44,20 @@ class BasicLayout extends React.Component {
     super(props);
     this.state = {
       currentItem: '',
+      data: [],
     };
   }
 
-  componentDidMount() {
+  componentDidMount(){
+    this.getInfo().catch(e=>console.log(e))
   }
 
-  UNSAFE_componentWillReceiveProps(nextprops){
-    console.log(nextprops,this.props)
-  }
+  getInfo = async ()=>{
+    const {data} = await service.getInfo();
+    this.setState({
+      data: data.data.map(item=>({...item.profile,npi: item.npi}))
+    });
+  };
 
 
   select = (params)=>{
@@ -65,6 +71,7 @@ class BasicLayout extends React.Component {
   render(){
 
     const { menu: {component}} = this.props;
+    const {data} = this.state;
     return (
       <div className="dashboard-container">
         <Layout>
@@ -72,7 +79,7 @@ class BasicLayout extends React.Component {
           <Layout>
             <Content style={{padding: '20px 20px'}}>
               {
-               component && createElement(component,{})
+               component && createElement(component,{data})
               }
             </Content>
           </Layout>
