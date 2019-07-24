@@ -1,6 +1,6 @@
 package scheduler
 
-import "crawler_goroutine/model"
+import "../model"
 
 type ReadyNotifier interface {
 	WorkerReady(chan model.Request)

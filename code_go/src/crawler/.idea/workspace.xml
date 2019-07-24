@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="11912ce3-498d-4af8-a379-d415bb4a31be" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../crawler_jsq/parse/parser.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../go_first/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../go_first/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../go_first/.idea/go_first.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../go_first/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../go_first/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../go_first/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../go_first/main/array.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../go_first/main/file.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../go_first/main/func.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../go_first/main/hello.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../go_first/main/interface.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../go_first/main/map.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../go_first/main/slice.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../go_first/main/struct.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../go_first/resource/abc.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crawler_goroutine/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../crawler_goroutine/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crawler_goroutine/engine/ConcurrentEngine.go" beforeDir="false" afterPath="$PROJECT_DIR$/../crawler_goroutine/engine/ConcurrentEngine.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crawler_goroutine/main/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/../crawler_goroutine/main/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crawler_goroutine/scheduler/queued.go" beforeDir="false" afterPath="$PROJECT_DIR$/../crawler_goroutine/scheduler/queued.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crawler_goroutine/scheduler/readyNotifier.go" beforeDir="false" afterPath="$PROJECT_DIR$/../crawler_goroutine/scheduler/readyNotifier.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crawler_goroutine/scheduler/scheduler.go" beforeDir="false" afterPath="$PROJECT_DIR$/../crawler_goroutine/scheduler/scheduler.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crawler_goroutine/scheduler/simple.go" beforeDir="false" afterPath="$PROJECT_DIR$/../crawler_goroutine/scheduler/simple.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crawler_goroutine/zhenai/parser/city.go" beforeDir="false" afterPath="$PROJECT_DIR$/../crawler_goroutine/zhenai/parser/city.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crawler_goroutine/zhenai/parser/citylist.go" beforeDir="false" afterPath="$PROJECT_DIR$/../crawler_goroutine/zhenai/parser/citylist.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crawler_goroutine/zhenai/parser/profile.go" beforeDir="false" afterPath="$PROJECT_DIR$/../crawler_goroutine/zhenai/parser/profile.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crawler_jsq/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../crawler_jsq/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crawler_jsq/fethcer/fecther.go" beforeDir="false" afterPath="$PROJECT_DIR$/../crawler_jsq/fethcer/fecther.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crawler_jsq/from_db/db.go" beforeDir="false" afterPath="$PROJECT_DIR$/../crawler_jsq/from_db/db.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crawler_jsq/from_url/url.go" beforeDir="false" afterPath="$PROJECT_DIR$/../crawler_jsq/from_url/url.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crawler_jsq/main/mian.go" beforeDir="false" afterPath="$PROJECT_DIR$/../crawler_jsq/main/mian.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../go_first/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../go_first/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../video_server/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../video_server/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../video_server/main/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/../video_server/main/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../video_server/viewHandler/av.go" beforeDir="false" afterPath="$PROJECT_DIR$/../video_server/viewHandler/av.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../video_server/viewHandler/hi.go" beforeDir="false" afterPath="$PROJECT_DIR$/../video_server/viewHandler/hi.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../video_server/viewHandler/viewHandler.go" beforeDir="false" afterPath="$PROJECT_DIR$/../video_server/viewHandler/viewHandler.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../code_vue/router-demo_wisewrong/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../code_vue/router-demo_wisewrong/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../code_vue/router-demo_wisewrong/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../../../code_vue/router-demo_wisewrong/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../code_vue/vue-demo-fist/src/components/First.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../code_vue/vue-demo-fist/src/components/Login.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../code_vue/vue-demo/.babelrc" beforeDir="false" afterPath="$PROJECT_DIR$/../../../code_vue/vue-demo/.babelrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../code_vue/vue-demo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../code_vue/vue-demo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../code_vue/vue-demo/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../code_vue/vue-demo/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../code_vue/vue-demo/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../code_vue/vue-demo/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../code_vue/vue-demo/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../../../code_vue/vue-demo/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../code_vue/vue-demo/src/components/Component.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../../../code_vue/vue-demo/src/components/Component.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../code_vue/vue-demo/src/components/First.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../../../code_vue/vue-demo/src/components/First.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../code_vue/vue-demo/src/components/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../../../code_vue/vue-demo/src/components/Home.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../code_vue/vue-demo/src/components/Login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../../../code_vue/vue-demo/src/components/Login.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../code_vue/vue-demo/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../code_vue/vue-demo/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../code_vue/vue-demo/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../code_vue/vue-demo/src/router/index.js" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/engine/engine.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="29" column="32" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fetcher/fetcher.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
+              <folding>
+                <element signature="e#17#59#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/zhenai/parser/citylist.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="16" column="37" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zhenai/parser/city.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zhenai/parser/profile.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="522">
+              <caret line="34" column="18" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/model/profile.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="36">
+              <caret line="2" selection-start-line="2" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main/main.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+              <folding>
+                <element signature="e#14#67#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Compile</find>
+      <find>fmt.</find>
+    </findStrings>
+  </component>
+  <component name="GOROOT" path="/usr/local/go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/main/main.js.go" />
+        <option value="$PROJECT_DIR$/main/engine/engine.go" />
+        <option value="$PROJECT_DIR$/main/engine/types.go" />
+        <option value="$PROJECT_DIR$/main.go" />
+        <option value="$PROJECT_DIR$/fetcher/fetcher.go" />
+        <option value="$PROJECT_DIR$/zhenai/parser/profile.go" />
+        <option value="$PROJECT_DIR$/model/profile.go" />
+        <option value="$PROJECT_DIR$/main/main.go" />
+        <option value="$PROJECT_DIR$/zhenai/parser/citylist.go" />
+        <option value="$PROJECT_DIR$/engine/engine.go" />
+        <option value="$PROJECT_DIR$/zhenai/parser/city.go" />
+        <option value="$PROJECT_DIR$/engine/types.go" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="y" value="23" />
+    <option name="width" value="1680" />
+    <option name="height" value="955" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="crawler" type="b2602c69:ProjectViewProjectNode" />
+              <item name="crawler" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="crawler" type="b2602c69:ProjectViewProjectNode" />
+              <item name="crawler" type="462c0819:PsiDirectoryNode" />
+              <item name="engine" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="crawler" type="b2602c69:ProjectViewProjectNode" />
+              <item name="crawler" type="462c0819:PsiDirectoryNode" />
+              <item name="fetcher" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="crawler" type="b2602c69:ProjectViewProjectNode" />
+              <item name="crawler" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="crawler" type="b2602c69:ProjectViewProjectNode" />
+              <item name="crawler" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="crawler" type="b2602c69:ProjectViewProjectNode" />
+              <item name="crawler" type="462c0819:PsiDirectoryNode" />
+              <item name="zhenai" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="crawler" type="b2602c69:ProjectViewProjectNode" />
+              <item name="crawler" type="462c0819:PsiDirectoryNode" />
+              <item name="zhenai" type="462c0819:PsiDirectoryNode" />
+              <item name="parser" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="GO_FMT" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.gopath.indexing.explicitly.defined" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/main" />
+      <recent name="$PROJECT_DIR$/model" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="crawler" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/main/main.go" />
+      <package value="crawler" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build main.go" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25885227" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.21530612" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32959184" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="a" />
+    <option name="LAST_COMMIT_MESSAGE" value="a" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/main/node.go" />
+    <entry file="file:///usr/local/go/src/regexp/regexp.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="135" column="10" selection-start-line="135" selection-start-column="3" selection-end-line="135" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/go/src/builtin/builtin.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="133" column="5" selection-start-line="133" selection-start-column="5" selection-end-line="133" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/engine/types.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fetcher/fetcher.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="e#17#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhenai/parser/city.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhenai/parser/profile.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="34" column="18" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/profile.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" selection-start-line="2" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+          <folding>
+            <element signature="e#14#67#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/engine/engine.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="29" column="32" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhenai/parser/citylist.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="16" column="37" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

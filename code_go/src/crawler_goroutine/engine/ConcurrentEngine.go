@@ -1,9 +1,9 @@
 package engine
 
 import (
-	"crawler_goroutine/fetcher"
-	"crawler_goroutine/model"
-	"crawler_goroutine/scheduler"
+	"../fetcher"
+	"../model"
+	"../scheduler"
 	"log"
 )
 

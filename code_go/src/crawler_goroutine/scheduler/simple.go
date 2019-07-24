@@ -1,7 +1,7 @@
 package scheduler
 
 import (
-	"crawler_goroutine/model"
+	"../model"
 )
 
 type SimpleScheduler struct {

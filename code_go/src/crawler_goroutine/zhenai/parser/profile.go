@@ -1,7 +1,7 @@
 package parser
 
 import (
-	"crawler_goroutine/model"
+	"../../model"
 	"regexp"
 	"strconv"
 )

@@ -1,10 +1,10 @@
 package main
 
 import (
-	"crawler_goroutine/engine"
-	"crawler_goroutine/model"
-	"crawler_goroutine/scheduler"
-	"crawler_goroutine/zhenai/parser"
+	"../engine"
+	"../model"
+	"../scheduler"
+	"../zhenai/parser"
 )
 
 func main() {
