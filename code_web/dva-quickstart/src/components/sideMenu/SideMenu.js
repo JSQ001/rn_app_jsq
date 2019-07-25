@@ -5,7 +5,8 @@ import React from 'react';
 import { connect } from 'dva';
 import {Layout, Menu} from 'antd';
 // import moment from 'moment';
-import '../../styles/dashboard.scss'
+//import '../../styles/dashboard.scss'
+import '../../styles/side-menu.scss'
 import { Link } from 'dva/router';
 import Products from '../../routes/Products';
 import { Route } from 'dva/router';
@@ -41,7 +42,7 @@ class SideMenu extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      currentItem: '',
+      currentItem: window.location.hash.replace('#', ''),
       menuList: [
         {
           id: 'name-list', name: '医生名单', path: 'name-list'
@@ -57,7 +58,7 @@ class SideMenu extends React.Component {
   }
 
   UNSAFE_componentWillReceiveProps(nextprops){
-    console.log(nextprops,this.props)
+    // console.log(nextprops,this.props)
   }
 
   /*
@@ -153,6 +154,7 @@ class SideMenu extends React.Component {
         collapsible
         breakpoint="lg"
         width={220}
+        className='menu-side'
         style={{background: '#D8D8D8'}}
       >
         <div className="logo" key="logo">
@@ -165,6 +167,9 @@ class SideMenu extends React.Component {
 
           <div style={{ padding: '0', width: '100%', overflowY: 'auto', height: 'calc(100vh - 116px)', overflowX: 'hidden' }}>
             <Menu
+              style={{
+                background: '#D8D8D8'
+              }}
               key="Menu"
               mode="inline"
               onOpenChange={this.handleOpenChange}

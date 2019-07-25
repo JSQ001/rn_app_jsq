@@ -36,12 +36,7 @@ class Container extends Component {
   }
 
   UNSAFE_componentWillReceiveProps(nextProps) {
-    console.log(nextProps.location.pathname !== this.props.location.pathname)
-
-    console.log(nextProps.location.pathname)
-    console.log(this.props.location.pathname)
     if (nextProps.location.pathname !== this.props.location.pathname) {
-      console.log(131231)
       this.onRouterChange();
     }
   }
@@ -58,7 +53,6 @@ class Container extends Component {
   onRouterChange = () => {
     const { dispatch } = this.props;
     let path = window.location.hash.replace('#', '');
-    console.log(path);
     if (path === '/') {
       dispatch(
         routerRedux.push({
@@ -68,7 +62,6 @@ class Container extends Component {
       return;
     }
     const component = this.getComponent(path);
-    console.log(component)
     this.setState({
       activeKey: component.routeKey,
       selectKey: component.functionId,
@@ -87,7 +80,6 @@ class Container extends Component {
 
 
   getComponent = (path = window.location.hash.replace('#', '') ) => {
-    console.log(path)
     switch (path) {
       case '/':case '/name-list':default:
         return {

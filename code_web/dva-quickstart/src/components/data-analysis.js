@@ -6,11 +6,25 @@ class DataAnalysis extends React.Component{
   constructor(props){
     super(props);
     this.state = {
-      chartData: []
+      chartData: [],
+      loading: true,
+      jsq: 1
     }
   }
 
-  componentDidMount(){
+  static getDerivedStateFromProps(nextProps, prevState) {
+    const {data} = nextProps;
+    if (JSON.stringify(data) !== JSON.stringify(prevState.data)) {
+      return {
+        chartData: data,
+        loading: false
+      };
+    }
+    return null;
+  }
+
+  // 在componentDidUpdate中进行异步操作，驱动数据的变化
+  componentDidUpdate() {
     this.renderAnalysis()
   }
 
@@ -79,7 +93,7 @@ class DataAnalysis extends React.Component{
 
     myChart.setOption(option, true);
 
-    this.setState({ chartsType: 2 });
+    //this.setState({ chartsType: 2 });
   };
 
   render(){

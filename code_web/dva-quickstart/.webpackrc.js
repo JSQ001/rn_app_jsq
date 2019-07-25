@@ -36,6 +36,7 @@ export default {
   lessLoaderOptions: {
     javascriptEnabled: true
   },
+  //disableCSSModules: true,
   disableDynamicImport: true,
   es5ImcompatibleVersions: true,
   publicPath: "/",

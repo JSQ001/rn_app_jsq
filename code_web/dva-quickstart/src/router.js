@@ -16,7 +16,6 @@ function RouterConfig({ history, app }) {
   return (
     <ConnectedRouter history={history}>
       <Switch>
-        <Route path="/dashboard" exact component={Dashboard} />
         <Route path="/products" exact component={Products} />
         <Route path="/" render={props =><Container {...props}/>}/>
         <Route path="/data-analysis" component={Products} />
