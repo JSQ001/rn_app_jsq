@@ -130,7 +130,7 @@ class Dashboard extends React.Component {
             <div className="logo" key="logo">
               <Link to="/dashboard">
                 <img src="" alt="logo" />
-                <h1 style={{ textAlign: 'center', color:  '#1890FF' }}>沐上科技</h1>
+                <h1 style={{ textAlign: 'center', color:  '#1890FF' }}>Demo</h1>
               </Link>
             </div>
             <div className="menu-container">
