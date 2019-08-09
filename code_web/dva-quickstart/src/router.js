@@ -6,6 +6,7 @@ import Products from './routes/Products';
 import Dashboard from './components/dashboard';
 import Container from './container'
 import dynamic from 'dva/dynamic';
+import Login from "./Login";
 const { ConnectedRouter } = routerRedux;
 dynamic.setDefaultLoadingComponent(() => {
   return <Spin size="large" className="" />;
@@ -17,6 +18,7 @@ function RouterConfig({ history, app }) {
     <ConnectedRouter history={history}>
       <Switch>
         <Route path="/products" exact component={Products} />
+        <Route path="/login" component={Login}/>
         <Route path="/" render={props =><Container {...props}/>}/>
         <Route path="/data-analysis" component={Products} />
       </Switch>

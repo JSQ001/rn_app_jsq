@@ -1,13 +1,7 @@
 import React, { Component } from 'react';
-import { Modal } from "antd"
-import pathToRegexp from 'path-to-regexp';
 import { connect } from 'dva';
 import { Router,routerRedux } from 'dva/router';
-import Products from './routes/Products';
-import SiderMenu from "./components/sideMenu/SideMenu";
-import service from './services'
 import BasicLayout from "./layouts/BasicLayout";
-import dashboard from "./components/dashboard";
 
 // import axios from 'axios';
 
@@ -30,7 +24,6 @@ class Container extends Component {
     this.ws = null;
   }
 
-  // 页面加载 sso antfin
   componentDidMount() {
     this.reloadRoutes();
   }
@@ -116,9 +109,6 @@ class Container extends Component {
 
 
   render() {
-    // const { languages: { local } } = this.props;
-    const { loading, activeKey, selectKey, panes, messages, local, openKey } = this.state;
-
     return (
       <div>
         <BasicLayout/>
