@@ -1,18 +1,14 @@
 /* esline-disabeld */
-import React, { createElement } from 'react';
+import React from 'react';
 
 import { connect } from 'dva';
-import { Input, message, Tabs, Button, Row, Col, Checkbox } from 'antd';
+import { Input, message, Button } from 'antd';
 
 import './styles/login.less';
-
-import moment from 'moment';
 
 import axios from 'axios';
 import { routerRedux } from 'dva/router';
 
-
-const TabPane = Tabs.TabPane;
 
 
 @connect(({ login, languages, loading }) => ({
@@ -62,7 +58,6 @@ export default class Login extends React.Component {
       remindFlag: 1, // 停机公告：
       announceType: 200, // 停机公告：
       isShowedModal: false, // 针对停机预告，与维护公告，只展示一次，就不展示了
-      remember: true,
     };
     this.group = {};
     this.functionGroup = {};
@@ -74,24 +69,12 @@ export default class Login extends React.Component {
     window.onresize = null;
   }
 
-  componentWillMount() {
-
-  }
-
   componentDidMount() {
     // const scene = document.getElementById('scene');
     // const parallaxInstance = new Parallax(scene, {
     //   calibrateX: true,
     // });
-    const userStr = window.localStorage.getItem('user');
-    if (userStr) {
-      const user = JSON.parse(userStr);
-      if (user.remember) {
-        this.setState({ remember: user.remember, username: user.username, password: user.password });
-      } else {
-        this.setState({ remember: user.remember });
-      }
-    }
+
   }
 
   inputUsernameHandler = evt => {
@@ -110,7 +93,7 @@ export default class Login extends React.Component {
 
 
   login = () => {
-    const { username, password, remember } = this.state;
+    const { username, password } = this.state;
 
     this.setState({ loading: true });
 
@@ -126,6 +109,7 @@ export default class Login extends React.Component {
 
     Object.keys(data).map(key => {
       formData.append(key, data[key]);
+      return key
     });
 
     axios({

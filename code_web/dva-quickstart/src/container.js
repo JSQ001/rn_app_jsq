@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'dva';
-import { Router,routerRedux } from 'dva/router';
+import { routerRedux } from 'dva/router';
 import BasicLayout from "./layouts/BasicLayout";
 
 // import axios from 'axios';
@@ -77,7 +77,7 @@ class Container extends Component {
       case '/':case '/name-list':default:
         return {
           routeKey: 'default',
-          component: require('./components/' + 'name-list').default,
+          component: require('./components/name-list').default,
           params: {
             match: {},
             getRef: ref => {
@@ -90,7 +90,7 @@ class Container extends Component {
     case '/data-analysis':
       return {
         routeKey: 'default',
-        component: require('./components/' + 'data-analysis').default,
+        component: require('./components/data-analysis').default,
         params: {
           match: {},
           getRef: ref => {

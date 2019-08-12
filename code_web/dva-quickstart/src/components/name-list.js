@@ -1,7 +1,7 @@
 import React from 'react';
 import {Row, Col, Icon, Pagination, Table, Popover, Card} from 'antd'
 import CardSvg from '../images/svg-card'
-import service from "../services";
+// import service from "../services";
 
 class NameList extends React.Component {
   constructor(props){
@@ -105,7 +105,7 @@ class NameList extends React.Component {
                         headStyle={{textAlign: 'center'}}
                         style={{borderRadius: 20}}
                         title={<span>
-                          <img style={{borderRadius: '100%'}} src={item.image_url}/>
+                          <img style={{borderRadius: '100%'}} src={item.image_url} alt=""/>
                           <div>{item.first_name+" "+ item.middle_name+" "+item.last_name}</div>
                         </span>}
                       >

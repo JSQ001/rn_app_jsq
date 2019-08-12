@@ -3,18 +3,16 @@
  */
 import React, { createElement} from 'react';
 import { connect } from 'dva';
-import {Layout, Menu} from 'antd';
+import {Layout} from 'antd';
 import SideMenu from '../components/sideMenu'
 // import moment from 'moment';
 import '../styles/dashboard.scss'
-import { Link } from 'dva/router';
-import menu from "../models/menu";
+// import { Link } from 'dva/router';
 import service from "../services";
-const { Header, Sider, Content } = Layout;
-const { SubMenu } = Menu;
+const {Content } = Layout;
 
 
-const menuList = [
+/*const menuList = [
   {
     path: '/dashboard',
     children: [
@@ -36,7 +34,7 @@ const menuList = [
       },
     ],
   },
-];
+];*/
 
 @connect((state) => ({menu: state.menu.currentMenu}))
 class BasicLayout extends React.Component {

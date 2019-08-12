@@ -8,35 +8,10 @@ import {Layout, Menu} from 'antd';
 //import '../../styles/dashboard.scss'
 import '../../styles/side-menu.scss'
 import { Link } from 'dva/router';
-import Products from '../../routes/Products';
-import { Route } from 'dva/router';
 
-const { Header, Footer, Sider, Content } = Layout;
+const { Sider, } = Layout;
 const { SubMenu } = Menu;
 
-const menu = [
-  {
-    path: '/dashboard',
-    children: [
-      {
-        path: '/dashboard/name',
-      },
-    ],
-  },
-  {
-    path: '/userinfo',
-    children: [
-      {
-        path: '/userinfo/:id',
-        children: [
-          {
-            path: '/userinfo/:id/info',
-          },
-        ],
-      },
-    ],
-  },
-];
 
 class SideMenu extends React.Component {
   constructor(props) {

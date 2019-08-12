@@ -3,8 +3,9 @@ import React from 'react';
 import DrawerMenu from 'rc-drawer';
 import SideMenu from './SideMenu';
 
+/*navTheme*/
 const SideMenuWrapper = props => {
-  const { isMobile, collapsed, activeKey, navTheme, openKey } = props;
+  const { isMobile, collapsed, activeKey, openKey } = props;
 
   return isMobile ? (
     <DrawerMenu
