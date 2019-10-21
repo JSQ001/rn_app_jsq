@@ -1,0 +1,305 @@
+
+/*红色背景*/
+.guangfayinhangCreditCard{
+    background: url('../../assets/我的卡包-信用/红背景.png') no-repeat center;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    width: 95vw
+}
+
+/*蓝色背景*/
+.blueBackgroundColor{
+    background: white;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    width: 95vw;
+    border-radius: 6px;
+}
+
+/*绿背景*/
+.greenBackgroundColor{
+    background: url('../../assets/我的卡包-信用/绿背景.png') no-repeat center;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    width: 95vw
+}
+
+
+.firstRow{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 5rem;
+}
+.secoundRow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 45px;
+    border-bottom: 0.083rem solid white;
+    font-weight:700;
+}
+.thirdRow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 48px;
+    width: 100%;
+}
+.secoundRowJieji{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 48px;
+    width: 100%;
+}
+.bankImg{
+    width: 60%;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.packagelist .am-list-body{
+    background-color: unset
+}
+.packagelist .am-list-body::after{
+    content: none !important
+}
+.packagelist .am-list-body::before{
+    content: none !important
+}
+
+/**/
+
+.editInfo{
+    width: 50%;
+    float: left;
+    text-align: center;
+    border-top:0.083rem solid #F6F6F6;
+    height: 100%;
+    line-height: 4.167rem;
+    font-size: 1.333rem;
+    color:#999999
+}
+.editInfo:first-child{
+    border-right: 0.083rem solid #F6F6F6;
+}
+.creditBangding{
+    height: 40px;
+    text-align: center;
+    color: white;
+    line-height: 40px;
+    font-size: 18px;
+    width: 65vw;
+    border-radius: 1.167rem;
+    background: #EE614C;
+    margin: 35px auto ;
+}
+.remark{
+    height: 40px;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    background: #FF8E8E;
+}
+.myselfWallt{
+    width: 100%;
+    background: url('../../assets/img/index/SY_YHk@3x.png')no-repeat center;
+    background-size: 100% 100%;
+    color: white;
+    line-height: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.myselfWallt span{
+    margin-left: 2.5rem;
+    font-size: 28px;
+    color:#FFFFFF;
+    font-weight: 500;
+}
+
+.myselfRevn{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 5rem;
+    height: 100%;
+    margin-top: -35px;
+}
+.myselfRevn span{
+    font-weight: 500;
+    width: 100vw;
+    text-align: center
+
+}
+
+.myselfRevn span:first-child{
+    color:#666666;
+}
+.myselfRevn span:last-child{
+    color:#222222;
+}
+
+.balanceImg{
+    width:50vw;
+    float: left;
+    height: 115px;
+    padding-top: 1.167rem;
+    background: white;
+    box-shadow: 0 0 3px  rgba(34, 25, 25, 0.4);
+}
+.balanceImg ul{
+    width: 90%;
+    text-align: left;
+    color: white;
+    font-size: 18px;
+    line-height: 25px;
+    margin-left:0px;
+}
+.balanceImg ul li{
+    list-style-type:none;
+}
+.balanceImg ul li:last-child{
+    font-size: 1.833rem;
+    font-weight: 700;
+}
+.revanImg{
+    width:50vw;
+    padding-top: 1.167rem;
+    float: left;
+    height: 115px;
+    background: white;
+    box-shadow: 0 0 3px  rgba(34, 25, 25, 0.4);
+}
+.revanImg ul{
+    width: 90%;
+    text-align: left;
+    color: white;
+    font-size: 18px;
+    line-height: 25px;
+    margin-left:0px;
+}
+.revanImg ul li{
+    list-style-type:none;
+}
+.revanImg ul li:last-child{
+    font-size: 1.833rem;
+    font-weight: 700;
+}
+.walltzhangdan{
+    width: 50%;
+    float: left;
+    background: url('../../assets/我的钱包/按钮-账单.png')no-repeat center;
+    background-size: 75% 60%;
+    height: 5rem;
+    text-align: center;
+    line-height: 59px;
+    color: #edc072;
+    font-size: 1.333rem
+}
+
+.wallttixian{
+    width: 50%;
+    float: right;
+    background: url('../../assets/我的钱包/按钮-提现.png')no-repeat center;
+    background-size: 75% 60%;
+    height: 5rem;
+    text-align: center;
+    line-height: 59px;
+    color: white;
+    font-size: 1.333rem
+}
+
+
+.zhuanruyue{
+    width: 35vw;
+    border: 2px solid #fff;
+    height: 32px;
+    text-align: center;
+    line-height: 32px;
+    color: #fff;
+    font-size: 1.167rem;
+    margin-left: auto;
+    border-radius: 33px;
+    font-weight: 700;
+}
+
+.leijishouyi{
+    width: 80vw;
+    background: url('../../assets/我的收益/按钮-累计交易.png')no-repeat center;
+    background-size: 100% 60%;
+    height: 5rem;
+    text-align: center;
+    line-height: 59px;
+    color: #edc072;
+    font-size: 1.333rem;
+}
+
+
+
+
+
+.repayPlanButton{
+    background: url('../../assets/添加还款计划/按钮.png')no-repeat center;
+    background-size: 100% 100%;
+    height: 32px;
+    width: 50%;
+    margin-top: -8px;
+    margin-left: 90px;
+    text-align: center;
+    color: white;
+    line-height: 30.083rem;
+}
+
+
+
+.headStyle{
+    background: #FFFFFF;
+    background-size: 100% 100%;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.my-package .am-tabs-default-bar-tab-active{
+    background: #EE614C;
+    border-bottom: 0.083rem solid #EE614C;
+    color: white !important;
+    z-index: 999;
+}
+.my-package{
+    .am-tabs-horizontal .am-tabs-pane-wrap-active{
+        height: calc(80vh);
+    }
+}
+
+// 添加信用卡
+.add-credit-card{
+    .add-tips{
+        height: 40px;
+        margin-left: 1.167rem;
+        line-height: 37px;
+        color: #9e9e9e;
+    }
+    .add-input-area{
+        //height: 360.083rem;
+        backgroundColor: white;
+    }
+}

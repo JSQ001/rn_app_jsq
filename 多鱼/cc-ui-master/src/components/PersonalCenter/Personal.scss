@@ -1,0 +1,352 @@
+.person-center{
+    background: white;
+    color:white;
+
+    .person-center-header{
+        background: linear-gradient(#F08B7D, #FF503D);
+        padding: 3rem 0 1.2rem 0;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+
+.perBanner{
+    background: url('../../assets/img/mine/WD_Bj@3x.png')no-repeat;
+    background-size: 100%;
+    height: 190px;
+}
+
+
+
+.quanyifenxiang{
+    line-height: 3.167rem;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 6.5rem 2rem 0 0 ;
+    text-align: center;
+
+}
+.quanyifenxiang p{
+    height: 1.167rem;
+    line-height: 1.167rem;
+    margin: 0 auto;
+    font-size:18px;
+    font-weight: 700;
+}
+.quanyifenxiang span{
+    margin: 0 auto;
+    font-size:14px;
+    color:#999999;
+}
+
+.person-center{
+
+    .perDianjichengweihuiyuan{
+        background: rgb(249,216,212);
+        width: 7.5rem;
+        height: 2.8rem;
+        color: white;
+        text-align: center;
+        font-size: 1.65rem;
+        line-height: 2.8rem;
+        position: absolute;
+        right: 1.778rem;
+        border-radius: 1.556rem;
+    }
+}
+
+
+
+
+.my-list .spe .am-list-extra {
+    flex-basis: initial;
+    }
+
+.pone1{
+    width: 32%;
+    height: 4.167rem;
+    /* border-right:0.083rem solid #00000012; */
+    float: left;
+    box-sizing: border-box;
+    margin-top: 9px;
+    margin-left: 12px;
+    text-align: center;
+    color: black;
+
+    }
+
+.perpage-footer{
+    height: 64px;
+    background: url('../../assets/首页/底部.png') no-repeat center;
+    background-size: 100% 100%;
+    position: fixed;
+    /* top: 500px; */
+    width: 100%;
+    bottom: 0px;
+}
+
+.addrXinzeng{
+    background: url('../../assets/注册-邀请页/按钮-注册.png')no-repeat center;
+    background-size: 100% 100%;
+    height: 36px;
+    text-align: center;
+    width: 200px;
+    color: white;
+    margin: 6.667rem auto 0 auto;
+    line-height: 32px;
+    font-size: 1.333rem;
+}
+
+.addrModalquxiao{
+    border:0.083rem solid #FF503D;
+    background-size: 70% 100%;
+    text-align: center;
+    height: 2.5rem;
+    line-height: 28px;
+    border-radius: 1.167rem;
+    width:80%;
+    margin:0 auto;
+}
+
+.addrModalqueding{
+    background: #FF503D;
+    border:0.083rem solid #FF503D;
+    background-size: 70% 100%;
+    text-align: center;
+    height: 2.5rem;
+    line-height: 28px;
+    border-radius: 1.167rem;
+    width:80%;
+    margin:0 auto;
+}
+
+.myIntfenxiang{
+    background: url('../../assets/我的权益/框.png')no-repeat center;
+    background-size: 90% 100%;
+    height: 55px;
+    text-align: center;
+    line-height: 38px;
+    color: white;
+    font-size: 1.333rem;
+    margin-top: 2.5rem;
+}
+
+.headStyle{
+    background-size: 100% 100%;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #EDDACA;
+}
+
+.myOrderStyle{
+    background: url(../../assets/我的订单/按钮-未选中.png)no-repeat center;
+    background-size: 100% 100%;
+    height: 25px;
+    width: 6.667rem;
+    text-align: center;
+    line-height: 26px
+}
+
+.myOrderStartStyle{
+    background: url(../../assets/我的订单/按钮-选中.png)no-repeat center;
+    background-size: 100% 100%;
+    height: 25px;
+    width: 6.667rem;
+    text-align: center;
+    line-height: 26px
+}
+
+
+.banner-content{
+    display: -webkit-flex;
+    display: flex;
+    height: 24.167rem;
+    justify-content: center;
+    background: #EDDACA;
+}
+
+.banner-item{
+    width: 100px;
+    height: 100px;
+    padding-top: 0.833rem;
+    margin: 0.833rem;
+    background: white;
+    text-align: center;
+    border-radius: 0.833rem;
+    box-shadow: 0 0.083rem 3px rgba(34, 25, 25, 0.2)
+}
+
+.banner-1-content{
+    background: white;
+    text-align: center;
+    padding: 25px;
+    border-radius: 0.833rem;
+    box-shadow: 0 0.083rem 3px  rgba(34, 25, 25, 0.4);
+    font-style: italic;
+    display: -webkit-flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.banner-1-item{
+    width: calc(30vw - 5vw);
+    height: 15vh;
+    padding-top: 3vh;
+    margin-bottom: 3vh;
+    line-height: 6vh;
+    border-radius: 0.833rem;
+    border: 0.083rem solid #EDDACA;
+}
+
+.banner-3-content{
+    background: white;
+    text-align: center;
+    padding: 25px;
+    border-radius: 0.833rem;
+    height: 49vh;
+    box-shadow: 0 0.083rem 3px  rgba(34, 25, 25, 0.4);
+}
+
+
+.myPackage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:white;
+    margin: 2rem auto .5rem;
+    position: relative;
+}
+
+.person-center-detail{
+    background: white;
+}
+
+.myPackage div{
+    width: 25%;
+    float: left;
+    justify-content: center;
+    align-items: center;
+    background-color:white;
+    text-align: center;
+}
+
+.myOrderList{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 95vw
+}
+.myOrderHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 2.5rem;
+    padding-top: 0.833rem
+}
+.myOrderShop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-top: 0.833rem
+}
+.myOrderButton{
+    font-size: 12px;
+    color: #b3b3b3;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    margin: 1.167rem;
+}
+.am-modal-content{
+    border-radius: 0.833rem;
+}
+
+.myselfInterests .am-list-body{
+    height: 100%;
+}
+.myselfInterests .list-view-section-body{
+    height: 100%;
+}
+
+.authFlag{
+    background: url('../../assets/img/mine/Wd_Sm@2x.png')no-repeat;
+    background-size: 100% 100%;
+    margin-left: 7pt;
+    line-height: 26px;
+    height: 26px;
+    width:fit-content;
+}
+.authFlag span{
+    color: #FFFFFF;
+    font-size: 1rem;
+    padding-left: 2rem;
+    padding-right: 0.833rem;
+}
+
+//每日晋升页面
+.my-daily-promotion{
+    width: 100vw;
+    background: #EDDACA;
+    background-size: 100% 100%;
+    top: 0;
+    bottom: 5rem;
+
+    .banner-item-name{
+        color: #D0AD85
+    }
+
+    table {
+        border-collapse:collapse;
+    }
+    table, td, th {
+        border:0.083rem solid #EDDACA;
+        padding: 0.833rem;
+        width: 83vw;
+        text-align: center;
+    }
+    .table-header{
+        background: #FBE4C8;
+    }
+}
+
+
+.person-center-detail .am-list-item{
+    border-bottom: 0.083rem solid rgb(243,243,243);
+}
+
+.person-center-detail .am-list-item:nth-child(1){
+    border-radius: 12px 12px 0 0;
+}
+
+.person-center-detail .am-list-item:nth-child(5){
+    border-radius: 0 0 12px 12px;
+}
+
+.my-friend{
+
+    .levelStyle{
+        height: 1.67rem;
+        width: 5.125rem;
+        text-align: center;
+        line-height: 1.67rem;
+        border: 1px solid #FF503D;
+        color: #FF503D;
+        font-size: 0.667rem;
+        margin-left: 1rem;
+        border-radius: 1rem;
+        padding: 0.2rem .5rem;
+    }
+
+    .am-list-body{
+        background: white;
+    }
+}

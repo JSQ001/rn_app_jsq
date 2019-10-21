@@ -1,0 +1,50 @@
+.add-plan{
+  .pay-plan{
+
+      width: 90vw;
+      margin: 1.167rem auto;
+
+      .play-item-content{
+        .am-input-control{
+          background: rgb(245,244,249);
+          text-align: right;
+
+          input{
+            text-align: right;
+            padding-right: 0.833rem;
+          }
+        }
+      }
+    }
+
+  .plan-detail{
+    padding-top: 8pt;
+    .plan-detail-color{
+      float: right;
+      color: #F47563;
+    }
+  }
+
+}
+
+.add-plan-modal{
+  .am-modal-content{
+    width: 100vw;
+    height: 60vw;
+    position: absolute;
+  }
+}
+
+.plan-am-list{
+  .am-list-body{
+    width: 90vw;
+    margin: 0 auto;
+    background: white;
+
+  }
+}
+.bank-card-detail{
+  .list-view-section-body{
+    background: white;
+  }
+}

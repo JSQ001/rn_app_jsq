@@ -1,0 +1,168 @@
+
+.goodsBanner{
+    background: url('../../assets/img/goods/VIP_Lw@3x.png')no-repeat;
+    background-size: 100%;
+    height: 190px;
+}
+.yangshi{
+    width: 80%;
+    height: 115px;
+    margin-left: 38px;
+    border-bottom: 0.083rem solid #dddddd94;
+}
+
+.product{
+    width:25%;
+    margin-top: 1.167rem;
+    margin-left: -26px;
+}
+
+.wenzi{
+    position: relative;
+    left: 66px;
+    top:-72px;
+}
+
+.productNameStyle{
+    font-size: 15px;
+}
+
+.productDescribeStyle{
+    font-size: 0.833rem;
+    margin-top: -5px;
+}
+.lingqu{
+    width: 25%;
+    position: relative;
+    left: 242px;
+    top: -118px;
+}
+.lijilingqu{
+    position: relative;
+    left: 255px;
+    top: -14.167rem;
+    font-size: 12px;
+    color: #e9c586;
+}
+
+.goodListLijilinqu{
+    background: url('../../assets/个人中心/按钮.png')no-repeat center;
+    background-size: 100% 100%;
+    height: 23%;
+    width: 33%;
+    margin-left: 16.667rem;
+    color: #e9c586;
+    text-align: center;
+    font-size: 14px;
+    line-height: 25px;
+    margin-top: -23px;
+}
+
+.goodListClickBuy{
+    background: url('../../assets/个人中心/按钮.png')no-repeat center;
+    background-size: 100% 100%;
+    height: 23%;
+    width: 33%;
+    margin-left: 16.667rem;
+    color: #e9c586;
+    text-align: center;
+    font-size: 14px;
+    line-height: 25px;
+    margin-top: 12px;
+}
+
+.headStyle{
+    background: #FFFFFF;
+    background-size: 100% 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 65px;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.upgrade-member{
+    background: linear-gradient(#FF8679, #FF503D);
+    width: 74vw;
+    margin: 25px auto;
+    padding: 25px;
+    border-radius: 0.833rem;
+    height: 18vh;
+    box-shadow: 0 0.083rem 3px  rgba(34, 25, 25, 0.4);
+    display: -webkit-flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: left;
+    color: white;;
+    justify-content: center;
+}
+.upgrade-member-money{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.upgrade-member-tips{
+    margin-top: 1.167rem;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.am-list-header{
+    padding: 0px;
+}
+
+.upgradeVip{
+    background: url('../../assets/登录页/按钮.png')no-repeat center;
+    background-size: 100% 100%;
+    width: 66%;
+    text-align: center;
+    line-height: 40px;
+    margin-left: 20%;
+    margin-top: 75px;
+    color: white;
+}
+
+.payBackground{
+    width: 82%;
+    height: 40px;
+    background-color: #169bd5f5;
+    border-radius: 1.167rem;
+    text-align: center;
+    margin-left: 10%;
+    line-height: 40px;
+    color: white;
+}
+
+.goodsDetailsBackground{
+    width: 300px;
+    height: 40px;
+    background-color: #169bd5f5;
+    border-radius: 1.167rem;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 40px;
+    color: white;
+    font-size: 1.333rem;
+}
+.list-view-section-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background: white; */
+
+}
+.am-list-body{
+    border-radius: 6px;
+}
+.am-number-keyboard-wrapper {
+    z-index: 100000;
+}
+
+.am-modal-button-group-h .am-modal-button{
+    font-size: 14px;
+}
+

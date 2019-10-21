@@ -1,0 +1,148 @@
+
+.placeholder {
+  background-color: #ebebef;
+  color: #bbb;
+  text-align: center;
+  height: 2.5rem;
+  line-height: 2.5rem;
+  width: 100%;
+}
+
+/** 所有的按钮 **/
+.querenRepayPlan{
+  background: #EB5E48;
+  height: 40px;
+  width: 300px;
+  text-align: center;
+  color: white;
+  line-height: 40px;
+  margin: 0 auto;
+  font-size: 1.333rem;
+  border-radius: 1.167rem;
+}
+.am-list-item .am-list-line .am-list-extra{
+  flex-basis: auto
+}
+.planSet .am-list-line::after{
+  content: '';
+  position: absolute;
+  background-color: #ddd;
+  display: block;
+  z-index: 1;
+  top: auto;
+  right: auto;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0.083rem;
+  transform-origin: 50% 100%;
+  transform: scaleY(0.5);
+}
+.am-picker-popup-title{
+  font-size: 14px !important
+}
+
+.am-modal-close{
+    position: absolute;
+    top: 12px
+}
+
+.am-radio-inner{
+  border: 0.083rem solid #DADADA;
+  border-radius: 90px;
+  width: 1.167rem;
+  height: 1.167rem;
+  color: white;
+}
+.am-radio-inner::after{
+  border-color: white !important;
+  top:.05rem;
+  left: 6px;
+}
+
+.am-radio{
+    width: .22rem;
+    height: .22rem;
+    border: .01rem solid #A4A7A9;
+    border-radius: 50%;
+    margin-right: .1rem;
+}
+
+.am-radio.am-radio-checked .am-radio-inner{
+    background: #EE614C !important;
+    color: white;
+}
+.am-list .am-list-item.am-radio-item .am-list-line .am-list-extra .am-radio-inner {
+  right: 15px;
+  top: 1.167rem;
+}
+
+
+.pay-tips-1{
+    background: url("../assets/支付宝/recommend.png") no-repeat;
+    background-size: 100% 100%;
+    width: 16vw;
+    padding: 0.083rem;
+    border-radius: 4px;
+    color: white;;
+}
+.moneyKey .am-list-item.am-input-item{
+    width: 70vw;
+    border-radius: 8px 0 0 8px;
+    border: 0.083rem solid rgb(213,213,213);
+}
+.moneyKey .am-list-item.am-input-item input {
+    color: black;
+    font-weight: 500;
+    text-align: left;
+    padding-left: 15px;
+    font-size: 18px;
+}
+
+
+
+.am-tabs-tab-bar-wrap{
+    border-top: 0.083rem solid rgb(238,238,238);
+}
+.my-jsq .am-list-item .am-input-control input{
+    text-align: right;
+}
+
+.am-radio-inner{
+    margin-top: -0.833rem;
+    right: 8px;
+    margin-left: 15px;
+}
+
+
+
+.jsq .am-list-item{
+    background: #EE614C;
+}
+.jsq .am-list-item.am-list-item-middle .am-list-line {
+    border: none !important;
+}
+
+.page-flex-column{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+.transfer .am-list-item .am-input-control .fake-input-container .fake-input-placeholder{
+    text-align: left;
+}
+
+.transfer-account .am-list-line:nth-child(1)  {
+    border-bottom: 0.083rem solid rgb(239,239,239) !important;
+
+}
+.jdqqe{
+    background: red;
+}
+
+@media screen and ( min-width:500px){
+    .box{
+        background: green;
+    }
+}

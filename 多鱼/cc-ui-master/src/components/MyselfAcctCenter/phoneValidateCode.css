@@ -1,0 +1,9 @@
+.validate-code-input{
+    display: flex;
+    padding: 0 25px;
+}
+.validate-code-item{
+    border-bottom: 2px solid #ddd;
+    width: 15vw;
+    margin: 0 15px;
+}

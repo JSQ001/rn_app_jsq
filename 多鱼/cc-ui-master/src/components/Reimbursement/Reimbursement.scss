@@ -1,0 +1,170 @@
+.headStyle{
+    background: url(../../assets/客服/框.png)no-repeat center;
+    background-size: 100% 100%;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.repaymentplan{
+    background: #FFFFFF;
+    background-size: 100% 100%;
+    width: 95vw;
+    height: 112px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 6px;
+}
+
+.bank-card-plan{
+    width: 90vw;
+    height: 112px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 0.833rem;
+}
+
+.blueRepaymentplan{
+    background: #FFFFFF;
+    background-size: 100% 100%;
+    width: 95vw;
+    height: 112px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 6px;
+}
+
+.addRepaymentPlay{
+    width: 95px;
+    height: 35px;
+    border: 0.083rem solid #FF9393;
+    border-radius: 40px;
+    line-height: 35px;
+    color: #FF9393;
+    text-align: center;
+
+}
+
+.tuoyuan1{
+    background: #FF9393;
+    border-radius: 4.167rem;
+    height: 1.167rem;
+    width: 1.167rem;
+    margin-top:12px;
+    display: inline-block;
+}
+.tuoyuan2{
+    background: #A7D87F;
+    border-radius: 4.167rem;
+    height: 1.167rem;
+    width: 1.167rem;
+    margin-top:12px;
+    display: inline-block;
+}
+.tuoyuan3{
+    background: #FFD26F;
+    border-radius: 4.167rem;
+    height: 1.167rem;
+    width: 1.167rem;
+    margin-top:12px;
+    display: inline-block;
+}
+.repayPlayBeijin{
+    height: 165px;
+    width: 95vw;
+    background-color: white;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-top: 15px;
+
+}
+
+.juxingkuang{
+    background: url(../../assets/计划详情/矩形.png)no-repeat center;
+    background-size: 100% 100%;
+    height: 2.5rem;
+    color: white;
+    font-size: 12px;
+    line-height: 2.5rem
+}
+
+.endStyle{
+    background: url(../../assets/计划详情/按钮.png)no-repeat center;
+    background-size: 100% 100%;
+    height: 26px;
+    width: 70px;
+    text-align: center;
+    line-height: 24px;
+    color: #ea9d15;
+    right: 0px;
+    top: 15px;
+}
+
+.planDetail{
+    background-color: white;
+    height: 240px;
+    width: 95%;
+    margin: 0 auto;
+    border-radius: 3px;
+}
+.planLocate{
+    margin-left: 18px;
+    font-size: 1.167rem;
+    font-weight: 700;
+    height: 5rem;
+    line-height: 5rem;
+    width: 100%;
+}
+.planLocate p{
+    width: 0.833rem;
+    height: 1.167rem;
+    background-color: #A7D87F;
+    float: left;
+}
+
+.planDetailDesc{
+    background-color: white;
+    height: 240px;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.planDescTitle{
+    margin-left: 18px;
+    margin-right: 18px;
+    font-size: 1.167rem;
+    font-weight: 700;
+    height: 5rem;
+    line-height: 5rem;
+    border-bottom: 0.083rem solid #F6F6F6
+}
+.planDescTitle p{
+    width: 5px;
+    margin-right: 5px;
+    height: 1.167rem;
+    background-color: #EE614C;
+    float: left;
+}
+
+.planSet .am-list-line::after{
+    background-color: none;
+}
+
+html:not([data-scale]) .am-list-item:not(:last-child) .am-list-line::after{
+    background-color: white;
+}
+
+
+.repay-plan{
+    //还款计划列表
+    .plan-my-list{
+        //margin-top: 24vh !important;
+    }
+}

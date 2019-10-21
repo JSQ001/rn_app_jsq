@@ -1,0 +1,102 @@
+.registerbeijin{
+  height: 72%;
+  width: 94%;
+  margin-left: 0.833rem;
+  background: url('../../assets/忘记密码/框.png') no-repeat center;
+  background-size: 100% 100%;
+  text-align: center;
+  position: fixed;
+  margin-top: -15px;
+
+}
+
+
+.register1{
+    max-width: 300px;
+    min-width: 258px;
+    margin-left: 1.167rem;
+    margin-top: 90px;
+}
+
+.register2{
+  width: 60%;
+  float: left;
+  max-width: 300px;
+  min-width: 50%;
+  margin-left: 1.167rem;
+}
+
+.register3{
+  max-width: 300px;
+  min-width: 258px;
+  margin-left: 1.167rem;
+  margin-top: 1.167rem;
+}
+
+.registerButton{
+  text-align: center;
+  height: 7%;
+  width: 80%;
+  margin: 0 auto;
+  background: #A7D87F;
+  color: white;
+  font-size: 18px;
+  line-height: 45px;
+  border-radius: 29px;
+  margin-top: 35px;
+}
+
+.registerDowload{
+  border:2px solid #A7D87F;
+  width: 80%;
+  text-align: center;
+  background: white;
+  margin: 0 auto;
+  font-size: 18px;
+  line-height: 45px;
+  color: #A7D87F;
+  border-radius: 29px;
+  margin-bottom: 1.167rem;
+  margin-top:1.167rem;
+}
+
+.userpage-footer{
+  height: 64px;
+  background: url('../../assets/首页/底部.png') no-repeat center;
+  background-size: 100% 100%;
+  position: fixed;
+  /* top: 500px; */
+  width: 100%;
+  bottom: 0px;
+}
+
+.clickBuy{
+  height: 1.833rem;
+  width: 36%;
+  background: url('../../assets/注册-邀请页/按钮-下载.png')no-repeat center;
+  background-size: 100% 100%;
+  text-align: center;
+  font-size: 15px;
+  line-height: 23px;
+  color: #d89014f7;
+  position: relative;
+  left: 164px;
+  top:12px
+}
+
+.registBlock{
+  background: #FFFFFF;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 13.3333px;
+  width: 92vw;
+  max-width: 356px;
+  min-width: 294px;
+  margin: 0 auto;
+}
+
+
+

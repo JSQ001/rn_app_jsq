@@ -1,0 +1,47 @@
+.xian{
+    border-bottom:black 0.083rem solid;
+}
+.denglumimaixugai{
+    height: 5rem;
+}
+.jiaoyimimaxiugai{
+    height: 5rem;
+    margin-top: -8px
+}
+.banbenguanli{
+    height: 5rem;
+    margin-top: -8px
+}
+.tu1{
+    position:relative;
+    margin-left:346px;
+    top:-130.083rem;
+    width:2.5rem;
+    height:28px;
+    color:#ddd;
+}
+.tu2{
+    position:relative;
+    margin-left:346px;
+    top:-11.167rem;
+    width:2.5rem;
+    height:28px;
+    color:#ddd;
+}
+
+
+/* .anquanfanhui{
+    position:relative;
+    top:52px;
+    left:1.167rem;
+    width:17px
+} */
+/* * { touch-action: pan-y; } */
+.headStyle{
+    background: white;
+    background-size: 100% 100%;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

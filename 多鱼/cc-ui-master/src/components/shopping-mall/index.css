@@ -1,0 +1,43 @@
+.shopping-mall{
+    padding-bottom: 20vh;
+    background: white;
+}
+.banner-main{
+    width: 90vw;
+    height: 30vh;
+    background-image: url("../../assets/shopping-mall/商城banner/主banner .jpg");
+    background-size: 100% 100%;
+    top: -0.833rem;
+    margin: 0 auto;
+    position: relative;
+}
+
+.banner-nav{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 1.167rem;
+}
+
+.nav-item{
+    width: 20vw;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.nav-item img{
+    width: 5rem;
+    height: 5rem;
+}
+
+
+.my-list-view .am-list-body{
+    background: white;
+}
+
+.my-list-view .am-list-body::before {
+    background-color: white !important;
+}

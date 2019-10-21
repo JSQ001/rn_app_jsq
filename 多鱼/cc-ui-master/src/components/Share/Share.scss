@@ -1,0 +1,50 @@
+
+.sharepage-footer{
+    height: 64px;
+    background: url('../../assets/首页/底部.png') no-repeat center;
+    background-size: 100% 100%;
+    position: fixed;
+    /* top: 500px; */
+    width: 100%;
+    bottom: 0px;
+}
+/* width:'27%', height:'40px', marginLeft:'1.167rem',
+                 marginTop:'-75px', border:'0.083rem solid white', textAlign:'center', color:'white', fontSize:'20.083rem', lineHeight:'38px' */
+.share{
+    width: 27%;
+    height: 40px;
+    margin-left:1.167rem;
+    margin-top: -75px;
+    border: 0.083rem solid white;
+    text-align: center;
+    color: white;
+    font-size: 20.083rem;
+    line-height: 38px;
+
+
+}
+
+.page-share{
+
+}
+
+.shareText::after{
+    position: relative;
+    display: table-cell;
+    width: 8%;
+    border-top: 2px solid white;
+    -webkit-transform: translateY(50%);
+    -ms-transform: translateY(50%);
+    transform: translateY(50%);
+    content: '';
+}
+.shareText::before{
+    position: relative;
+    display: table-cell;
+    width: 8%;
+    border-top: 2px solid white;
+    -webkit-transform: translateY(50%);
+    -ms-transform: translateY(50%);
+    transform: translateY(50%);
+    content: '';
+}

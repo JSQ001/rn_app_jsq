@@ -1,0 +1,188 @@
+.login-index{
+  color: #333333;
+  background: white;
+  padding: 0 2rem;
+
+  .title {
+    font-size: 3.6rem;
+    font-weight: 400;
+  }
+  .titleFlag {
+    color: #333333;
+    font-size: 4.167rem;
+    font-family: 'PingFangSC', sans-serif;
+    font-weight: 400;
+    margin:0 auto;
+  }
+  .anniu{
+    text-align: center;
+    background: #FF503D;
+    border-radius: 2.5rem;
+    font-size: 2.5rem;
+    line-height: 5rem;
+    width: 85vw;
+    color: white;
+    cursor: pointer;
+    margin: 5rem auto 0;
+  }
+  .login-input input {
+    color: #333333 !important;
+    font-size: 1.6rem !important;
+  }
+  .login-input{
+    background-color: unset;
+    width: 85%;
+    font-size: 1.6rem !important;
+  }
+
+  .am-input-control input{
+    border-bottom: none !important;
+  }
+  .login-input-password{
+    width: 88.6vw;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .login-tips{
+    display: flex;
+    width: 86vw;
+    justify-content: center;
+    margin: 2vh auto 0;
+    align-items: center;
+    .forgetPassword{
+      margin-left: auto;
+      text-align: right;
+
+    }
+
+  }
+
+}
+
+
+
+  .shouye{
+    background-color: unset;
+    width: 85%;
+    padding: 0px 0px 15px 0px !important;
+  }
+
+  .shouye input:-webkit-autofill , textarea:-webkit-autofill, select:-webkit-autofill {
+    -webkit-text-fill-color: #FFFFFF !important;
+    color: #FFFFFF !important
+  }
+  .shouye input::-webkit-input-placeholder,input:-moz-placeholder { /* WebKit browsers */
+    color: #FFFFFF !important;
+  }
+
+
+  .tubiao{
+    width:15px;
+    height: 25px;
+  }
+
+  .denlu{
+    position: absolute;
+    right: 170px;
+    top: 500.083rem;
+    color: #FAFAFA;
+    font-size: 1.333rem
+  }
+
+  .forgetPassbeijin{
+    background: url('../../assets/忘记密码/框.png') no-repeat center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1.167rem;
+    width: 92vw;
+    max-width: 356px;
+    min-width: 294px;
+  }
+  .pay-success-content{
+
+  }
+
+  .wenzi1{
+    position:absolute;
+    top:143px;
+    left:64px;
+    font-size:18px;
+    color:#e8ba69
+  }
+
+  .pass{
+      padding: 5px 40px !important;
+      min-width: 214px;
+  }
+  .pass img {
+    width: 1.167rem
+  }
+
+  .forgetPasstijiao{
+    text-align: center;
+    background: #4C81FF;
+    color: white;
+    font-size: 1.333rem;
+    line-height: 38px;
+    width: 25rem;
+    border-radius: 25px;
+    margin: 90px 0px 40px  0px;
+  }
+  .pay-success{
+    text-align: center;
+    background: #EE614C;
+    color: white;
+    font-size: 1.333rem;
+    line-height: 38px;
+    width: 25rem;
+    border-radius: 25px;
+    margin: 2.5rem 0;
+  }
+  .return-store{
+    text-align: center;
+    border:0.083rem solid #EE614C;
+    color: #EE614C;
+    font-size: 1.333rem;
+    line-height: 38px;
+    width: 25rem;
+    border-radius: 25px;
+  }
+
+
+  .dianjihuoqu{
+    width: 82%;
+    height:39px;
+    margin-left: 24px;
+    margin-top: -25px
+  }
+
+  .qunhao{
+      width: 224px;
+      margin-top: 23px;
+      background-color: #f2f2f2;
+  }
+  .controlLable .am-list-item .am-input-label.am-input-label-5{
+    width: 33px;
+  }
+  .personalAuth .am-list-item .am-input-label.am-input-label-5{
+    font-size: 1.333rem;
+  }
+  input:-webkit-autofill , textarea:-webkit-autofill, select:-webkit-autofill{
+    background-color:transparent;
+    background-image: none;
+     transition: background-color 50000s ease-in-out 0s;
+  }
+  .forgetPasswordText{
+    font-size: 1.333rem;
+    position: absolute;
+    top: 33px;
+    left: 50%;
+    width: 6.667rem;
+    margin-left: -32px;
+  }
+  .sfzImg{
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+  }

@@ -1,0 +1,55 @@
+# 定义 stages
+stages:
+  - build
+  - deploy
+
+cache:
+  paths:
+    - node_modules/
+
+# 构建job
+build:
+  stage: build
+  script:
+    - npm install
+    - npm run build
+  artifacts:
+    paths:
+      - build/*
+    expire_in: 10 mins
+    
+# 部署到演示环境
+deploy_staging:
+  stage: deploy
+  dependencies:
+    - build
+  only:
+    - staging
+  script:
+    - eval $(ssh-agent -s)
+    - echo "$SSH_PRIVATE_KEY45" | tr -d '\r' | ssh-add - > /dev/null
+    - mkdir -p ~/.ssh
+    - chmod 700 ~/.ssh
+    - '[[ -f /.dockerenv ]] && echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config'
+    - scp -r build deployer@172.40.0.45:~/cc-app/web
+    - ssh deployer@172.40.0.45 "cd /home/deployer/cc-app && docker restart cc-app_web_1"
+  environment:
+    name: staging45
+    url: http://172.40.0.45:84
+deploy_product:
+  stage: deploy
+  dependencies:
+    - build
+  only:
+    - product
+  script:
+    - eval $(ssh-agent -s)
+    - echo "$SSH_PRIVATE_KEY45" | tr -d '\r' | ssh-add - > /dev/null
+    - mkdir -p ~/.ssh
+    - chmod 700 ~/.ssh
+    - '[[ -f /.dockerenv ]] && echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config'
+    - scp -r build root@47.102.198.188:/usr/share/nginx/html
+    - scp -r build root@47.102.141.28:/usr/share/nginx/html
+  environment:
+    name: product
+    url: https://wmemall.com
