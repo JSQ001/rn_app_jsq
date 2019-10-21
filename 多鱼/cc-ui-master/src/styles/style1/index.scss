@@ -1,0 +1,63 @@
+html{
+  font-size: 100pt; //本来是设置成0.833rem，但是谷歌浏览器最小默认为12px
+  background: white;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+  "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+  sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+  monospace;
+}
+
+%common-flex-col{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-area{
+  width: 100vw;
+  @extend %common-flex-col;
+  height: .44rem;
+  position: fixed;
+  background: white;
+  padding: 0 .16rem;
+  top: 0;
+  .header-area-back{
+    height: 100%;
+    //width: 6.667rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 0;
+  }
+}
+
+
+.page-content{
+  background: white;
+  padding: .44rem .16rem 0 .16rem;
+}
+
+.page-footer{
+  height: .49rem;
+  position: fixed;
+  width: 100vw;
+  padding-top: 0.04rem;
+  display: flex;
+  bottom: 0;
+  justify-content: center;
+  background: white;
+  align-items: center;
+  box-shadow: 0px -5px 5px rgba(0, 0, 0, 0.067)
+}
+

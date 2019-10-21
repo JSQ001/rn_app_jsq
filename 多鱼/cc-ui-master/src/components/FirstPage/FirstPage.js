@@ -1,16 +1,10 @@
 import React, { Fragment } from 'react';
 import { connect } from 'dva';
-import gerenzhongxin from 'assets/img/index/SY_ICO3@3x.png';
-import fenxiang from 'assets/img/index/SY_ICO2@3x.png';
-import shouye from 'assets/img/index/SY_ICO1_Click@3x.png';
 import { Link } from 'dva/router';
-import './First.scss';
-import { Carousel, Icon,Flex,Button, Toast } from 'antd-mobile';
-import { userLevel } from '../../utils/appUtils.js';
-import img from 'assets/img/mine/WDHY_Tx@3x.png';
-
+import 'styles/style1/first-page.scss';
+import { Toast } from 'antd-mobile';
+import { userLevel } from 'utils/appUtils.js';
 import AddSvg from 'assets/svg/add'
-import LiBaoSvg from 'assets/svg/libao'
 import CustomServiceSvg from "assets/svg/custom-service";
 import Logo from 'assets/img/index/logo.png'
 import Footer from "../common/footer";
@@ -18,6 +12,7 @@ import SH from 'assets/首页/duoyushenka.png'
 import XJ from 'assets/首页/duoyuxinjian.png'
 import RZ from 'assets/首页/shiming.png'
 import KB from 'assets/首页/duoyukabao.png'
+import img from 'assets/img/mine/WDHY_Tx@3x.png';
 import banner1 from 'assets/首页/banner1-首页.jpg'
 import banner2 from 'assets/首页/首页轮播banner2.jpg'
 import banner3 from 'assets/首页/首页轮播banner3.jpg'
@@ -32,7 +27,6 @@ const cs = (data) => {
 }
 
 @connect(state=>{
-  console.log(state.webshop.vipFlag)
   return{
     loading: state.loading.models.webshop,
     list: state.webshop.list,
@@ -213,27 +207,25 @@ class FirstPage extends React.Component {
                               </div>
                             </div>
 
-                            <div>
-                              <Link to={ data.authStatus === 'N' ? "/personalAuth/first" : "authSuccess"}>
-                                <div className="footer-item">
-                                  <img className='item-img' src={RZ} alt=''/>
-                                  <div className="footer-item-text">
-                                    <div className="text-nav-title">实名认证</div>
-                                    <div className="text-nav-tips">实名认证，解锁更多功能</div>
-                                  </div>
-                                </div>
-                              </Link>
-                              <div className="footer-item" onTouchEnd={()=>{
-                                this.props.history.push({ pathname: '/myselfCardPackage/personalCenter/personalCenter' })
-                              }}>
-                                <img className='item-img' src={KB} alt=''/>
+
+                            <Link to={ data.authStatus === 'N' ? "/personalAuth/first" : "authSuccess"}>
+                              <div className="footer-item">
+                                <img className='item-img' src={RZ} alt=''/>
                                 <div className="footer-item-text">
-                                  <div className="text-nav-title">多鱼卡包</div>
-                                  <div className="text-nav-tips">丰富优惠，乐享生活</div>
+                                  <div className="text-nav-title">实名认证</div>
+                                  <div className="text-nav-tips">实名认证，解锁更多功能</div>
                                 </div>
                               </div>
+                            </Link>
+                            <div className="footer-item" onTouchEnd={()=>{
+                              this.props.history.push({ pathname: '/myselfCardPackage/personalCenter/personalCenter' })
+                            }}>
+                              <img className='item-img' src={KB} alt=''/>
+                              <div className="footer-item-text">
+                                <div className="text-nav-title">多鱼卡包</div>
+                                <div className="text-nav-tips">丰富优惠，乐享生活</div>
+                              </div>
                             </div>
-
                           </div>
                         </div>
                         {/*<div style={{

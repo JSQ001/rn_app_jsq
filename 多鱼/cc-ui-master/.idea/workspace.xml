@@ -174,170 +174,7 @@
       <change afterPath="$PROJECT_DIR$/../cc-app-master/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../cc-app-master/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../cc-app-master/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vagrant.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/a.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/goods/cuxiaolihe.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/goods/wallet 7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/index/back.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/index/login.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/index/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/index/shouyi.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/index/tixian.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/index/zhangdan.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/logo/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/mine/cridet.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/mine/delete.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/mine/member_center.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/mine/my_friend.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/mine/my_pakage.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/mine/phone.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/vip/HY_Zs@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/share/WechatIMG83.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/share/banner1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/share/banner2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/share/banner3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/share/分享-新.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/share/微信登录@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/share/编组 2@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/share/编组 3@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/share/编组 4@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/shopping-mall/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/shopping-mall/4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/shopping-mall/5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/shopping-mall/6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/shopping-mall/商城banner/1.banner-剃须刀.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/shopping-mall/商城banner/10.四件套-极简主义.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/shopping-mall/商城banner/2.铁壶茶具.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/shopping-mall/商城banner/3.剃须刀3头.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/shopping-mall/商城banner/4.美心杯.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/shopping-mall/商城banner/5.感温保温壶.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/shopping-mall/商城banner/6.筷子.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/shopping-mall/商城banner/7.包.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/shopping-mall/商城banner/8.挂烫机.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/shopping-mall/商城banner/9.四件套-温馨话语.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/shopping-mall/商城banner/主banner .jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/shopping-mall/详情页主图/GH162P90010 长款便携卡包-手拿包/长款便携卡包1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/shopping-mall/详情页主图/GH162P90010 长款便携卡包-手拿包/长款便携卡包2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/shopping-mall/详情页主图/GH162P90010 长款便携卡包-手拿包/长款便携卡包3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/shopping-mall/详情页主图/GH162P90010 长款便携卡包-手拿包/长款便携卡包4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/shopping-mall/详情页主图/GH162P90010 长款便携卡包-手拿包/长款便携卡包5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/shopping-mall/详情页主图/MJ-T01-剃须刀/MJ-T01-剃须刀1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/shopping-mall/详情页主图/MJ-T01-剃须刀/MJ-T01-剃须刀2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/shopping-mall/详情页主图/MJ-T01-剃须刀/MJ-T01-剃须刀3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/shopping-mall/详情页主图/MJ-T01-剃须刀/MJ-T01-剃须刀4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/shopping-mall/详情页主图/MJ-T02 剃须刀/MJ-T02 剃须刀1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/shopping-mall/详情页主图/MJ-T02 剃须刀/MJ-T02 剃须刀2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/shopping-mall/详情页主图/MJ-T02 剃须刀/MJ-T02 剃须刀3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/shopping-mall/详情页主图/MJ-T02 剃须刀/MJ-T02 剃须刀4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/shopping-mall/详情页主图/MJ-T02 剃须刀/MJ-T02 剃须刀5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/shopping-mall/详情页主图/VT223 盛世东方铁离子养生套装/铁离子养生套装1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/shopping-mall/详情页主图/VT223 盛世东方铁离子养生套装/铁离子养生套装2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/shopping-mall/详情页主图/VT223 盛世东方铁离子养生套装/铁离子养生套装3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/shopping-mall/详情页主图/VT223 盛世东方铁离子养生套装/铁离子养生套装4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/shopping-mall/详情页主图/VT223 盛世东方铁离子养生套装/铁离子养生套装5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/shopping-mall/详情页主图/WK-BL-KZ 美心杯/美心杯1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/shopping-mall/详情页主图/WK-BL-KZ 美心杯/美心杯2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/shopping-mall/详情页主图/WK-BL-KZ 美心杯/美心杯3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/shopping-mall/详情页主图/WK-BL-KZ 美心杯/美心杯4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/shopping-mall/详情页主图/WK-BL-KZ 美心杯/美心杯5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/shopping-mall/详情页主图/WK-UCS-KZ 紫外线筷子消毒机/筷子消毒器1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/shopping-mall/详情页主图/WK-UCS-KZ 紫外线筷子消毒机/筷子消毒器2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/shopping-mall/详情页主图/WK-UCS-KZ 紫外线筷子消毒机/筷子消毒器3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/shopping-mall/详情页主图/WK-UCS-KZ 紫外线筷子消毒机/筷子消毒器4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/shopping-mall/详情页主图/WK-UCS-KZ 紫外线筷子消毒机/筷子消毒器5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/shopping-mall/详情页主图/WS-JM1701B 手持挂烫机/手持挂烫机1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/shopping-mall/详情页主图/WS-JM1701B 手持挂烫机/手持挂烫机2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/shopping-mall/详情页主图/WS-JM1701B 手持挂烫机/手持挂烫机3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/shopping-mall/详情页主图/WS-JM1701B 手持挂烫机/手持挂烫机4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/shopping-mall/详情页主图/商品主图文字信息.pages" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/shopping-mall/详情页主图/家之尚四件套-极简主义1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/shopping-mall/详情页主图/家之尚四件套-温馨话语1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/svg/add.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/svg/custom-service.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/svg/home.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/svg/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/svg/libao.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/svg/share.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/svg/user.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/wonderful/banner2-精彩-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/wonderful/banner3-活动.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/个人中心/my_friend.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/支付宝/recommend.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/支付宝/wallet 7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/银行logo/bank-background/bocb.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/银行logo/bank-background/ceeb.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/银行logo/bank-background/commb.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/银行logo/bank-background/中信银行-背景@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/银行logo/bank-background/中国邮政储蓄银行@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/银行logo/bank-background/兴业银行@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/银行logo/bank-background/农业银行@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/银行logo/bank-background/华夏银行@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/银行logo/bank-background/工商银行@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/银行logo/bank-background/广发银行@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/银行logo/bank-background/建设银行@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/银行logo/bank-background/招商银行@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/银行logo/bank-background/民生银行@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/银行logo/bank-background/浦发银行@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/银行logo/中信银行-带圆@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/银行logo/中国银行-#E60012@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/银行logo/交通银行-#1D2088@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/银行logo/光大银行-#6A1585@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/银行logo/兴业银行-#004098@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/银行logo/农业银行-#008566@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/银行logo/华夏银行-#E72327@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/银行logo/工商银行-#E60012@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/银行logo/平安银行@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/银行logo/广发银行-#E4001F@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/银行logo/建设银行-#003B90@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/银行logo/招商银行-#A61F23@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/银行logo/民生银行-#00559E@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/银行logo/浦发银行-#1D2088@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/银行logo/邮政储蓄银行-#007F3E@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/银行logo/邮政储蓄银行@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/首页/01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/首页/02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/首页/03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/首页/04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/首页/banner1-首页.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/首页/duoyukabao.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/首页/duoyushenka.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/首页/duoyuxinjian.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/首页/shiming.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/首页/个人中心.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/首页/信用卡.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/首页/分享.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/首页/右.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/首页/图.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/首页/图2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/首页/大礼包.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/首页/客服.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/首页/左.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/首页/底部.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/首页/按钮.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/首页/首页轮播banner2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/首页/首页轮播banner3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/MyselfAcctCenter/bankCard.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/MyselfAcctCenter/bindSuccess.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/MyselfAcctCenter/payPlan.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/MyselfAcctCenter/phoneValidateCode.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/MyselfAcctCenter/phoneValidateCode.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Reimbursement/plan.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Share/wonderful.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/common/bank-card/bank-card-basic.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/common/bank-card/bank-card-debit.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/common/bank-card/bank-card-detail.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/common/footer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/common/layout-test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/common/layout/page-header.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/common/my-listview.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/creditCard/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/shopping-mall/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/shopping-mall/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/shopping-mall/product-detail.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/style1/index.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/style1/first-page.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../MyApplication/.idea/gradle.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../MyApplication/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../android/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../android/.idea/gradle.xml" afterDir="false" />
@@ -418,6 +255,12 @@
       <change beforePath="$PROJECT_DIR$/../../react/dva-doctor-view/.roadhogrc" beforeDir="false" afterPath="$PROJECT_DIR$/../../react/dva-doctor-view/.roadhogrc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../react/dva-doctor-view/src/routes/dashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../react/dva-doctor-view/src/routes/dashboard.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../react_native/react_native_demo/component/account/account.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../react_native/react_native_demo/component/account/account.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/FirstPage/First.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/FirstPage/FirstPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FirstPage/FirstPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/style1/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/style1/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -458,14 +301,14 @@
           <entry key="gitignore" value="1" />
           <entry key="html" value="4" />
           <entry key="jpg" value="43" />
-          <entry key="js" value="455" />
+          <entry key="js" value="457" />
           <entry key="json" value="6" />
           <entry key="less" value="5" />
           <entry key="md" value="1" />
           <entry key="png" value="91" />
           <entry key="rar" value="1" />
           <entry key="rnc" value="1" />
-          <entry key="scss" value="41" />
+          <entry key="scss" value="44" />
           <entry key="svg" value="29" />
           <entry key="ts" value="25" />
         </counts>
@@ -476,12 +319,12 @@
           <entry key="HTML" value="4" />
           <entry key="Image" value="134" />
           <entry key="JSON" value="7" />
-          <entry key="JavaScript" value="455" />
+          <entry key="JavaScript" value="457" />
           <entry key="Less" value="5" />
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="3" />
           <entry key="RNG Compact" value="1" />
-          <entry key="SCSS" value="41" />
+          <entry key="SCSS" value="44" />
           <entry key="SVG" value="29" />
           <entry key="TypeScript" value="25" />
         </counts>
@@ -491,10 +334,11 @@
           <entry key="babelrc" value="33" />
           <entry key="css" value="3594" />
           <entry key="html" value="10" />
-          <entry key="js" value="26843" />
+          <entry key="js" value="26868" />
           <entry key="json" value="9" />
-          <entry key="scss" value="2863" />
+          <entry key="scss" value="2882" />
           <entry key="svg" value="88" />
+          <entry key="txt" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -502,8 +346,9 @@
           <entry key="CSS" value="3594" />
           <entry key="HTML" value="10" />
           <entry key="JSON" value="42" />
-          <entry key="JavaScript" value="26843" />
-          <entry key="SCSS" value="2863" />
+          <entry key="JavaScript" value="26868" />
+          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="SCSS" value="2882" />
           <entry key="SVG" value="88" />
         </counts>
       </usages-collector>
@@ -552,8 +397,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/FirstPage/FirstPage.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="193" column="47" lean-forward="true" selection-start-line="193" selection-start-column="47" selection-end-line="193" selection-end-column="47" />
+            <state relative-caret-position="-547">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
                 <element signature="e#1694#2122#0" />
@@ -566,36 +411,43 @@
                 <element signature="e#7258#7761#0" />
                 <element signature="e#7304#7394#0" />
                 <element signature="e#7501#7726#0" />
-                <element signature="e#7895#8446#0" />
-                <element signature="e#8520#8671#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/FirstPage/First.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="397">
-              <caret line="117" column="7" lean-forward="true" selection-start-line="117" selection-start-column="7" selection-end-line="117" selection-end-column="7" />
-              <folding>
-                <element signature="e#141#203#0" />
-                <element signature="e#513#1184#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/styles/style1/first-page.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="563">
+              <caret line="355" selection-start-line="355" selection-end-line="355" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webpack.config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="321">
+              <caret line="57" selection-start-line="57" selection-end-line="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/styles/style1/index.scss">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="10" column="36" selection-end-line="63" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/index.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="47" column="11" selection-start-line="47" selection-start-column="11" selection-end-line="47" selection-end-column="11" />
+            <state relative-caret-position="132">
+              <caret line="6" column="12" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -638,7 +490,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>source</find>
       <find>cameraStatus</find>
       <find>/authFail</find>
       <find>authFail</find>
@@ -664,10 +515,11 @@
       <find>userLevel</find>
       <find>footer-page</find>
       <find>main-page</find>
-      <find>AuthSuccess</find>
       <find>bannerLevel</find>
-      <find>app-name</find>
+      <find>AuthSuccess</find>
       <find>bannerImg</find>
+      <find>app-name</find>
+      <find>AddSvg</find>
     </findStrings>
     <replaceStrings>
       <replace>192.168.0.220:8080</replace>
@@ -701,9 +553,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/components/Reimbursement/Ring3.js" />
-        <option value="$PROJECT_DIR$/src/components/LoginPage/Login.css" />
-        <option value="$PROJECT_DIR$/src/components/LoginPage/Login.js" />
         <option value="$PROJECT_DIR$/src/services/custService.js" />
         <option value="$PROJECT_DIR$/src/models/cust.js" />
         <option value="$PROJECT_DIR$/src/components/Share/Share.js" />
@@ -749,9 +598,12 @@
         <option value="$PROJECT_DIR$/src/assets/svg/custom-service.js" />
         <option value="$PROJECT_DIR$/src/assets/svg/libao.js" />
         <option value="$PROJECT_DIR$/src/components/common/footer.js" />
-        <option value="$PROJECT_DIR$/src/index.scss" />
-        <option value="$PROJECT_DIR$/src/components/FirstPage/FirstPage.js" />
         <option value="$PROJECT_DIR$/src/components/FirstPage/First.scss" />
+        <option value="$PROJECT_DIR$/src/styles/style1/index.scss" />
+        <option value="$PROJECT_DIR$/src/index.scss" />
+        <option value="$PROJECT_DIR$/webpack.config.js" />
+        <option value="$PROJECT_DIR$/src/components/FirstPage/FirstPage.js" />
+        <option value="$PROJECT_DIR$/src/styles/style1/first-page.scss" />
       </list>
     </option>
   </component>
@@ -819,7 +671,20 @@
               <item name="cc-ui-master" type="b2602c69:ProjectViewProjectNode" />
               <item name="cc-ui-master" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cc-ui-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cc-ui-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="styles" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cc-ui-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cc-ui-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="styles" type="462c0819:PsiDirectoryNode" />
+              <item name="style1" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -923,17 +788,26 @@
       <updated>1570525583140</updated>
       <workItem from="1570525584589" duration="1107000" />
       <workItem from="1570872344460" duration="217109000" />
-      <workItem from="1571397680994" duration="50817000" />
+      <workItem from="1571397680994" duration="52151000" />
     </task>
+    <task id="LOCAL-00001" summary="123">
+      <created>1571653240956</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1571653240956</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="398957000" />
+    <option name="totallyTimeSpent" value="400291000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18264015" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18264015" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -946,8 +820,8 @@
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32959184" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="9" visible="true" weight="0.32959184" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32959184" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -978,24 +852,24 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="123" />
+    <option name="LAST_COMMIT_MESSAGE" value="123" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/components/SafeCenter/EditTranPassword.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2112">
-          <caret line="104" column="17" selection-start-line="104" selection-start-column="17" selection-end-line="104" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/@types/react/index.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-13">
-          <caret line="961" column="46" lean-forward="true" selection-start-line="961" selection-start-column="46" selection-end-line="961" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/common/bank-card/bank-card-basic.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1377,15 +1251,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/index.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="47" column="11" selection-start-line="47" selection-start-column="11" selection-end-line="47" selection-end-column="11" />
+        <state relative-caret-position="132">
+          <caret line="6" column="12" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/FirstPage/First.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1286">
+          <caret line="102" column="9" lean-forward="true" selection-start-line="102" selection-start-column="9" selection-end-line="102" selection-end-column="9" />
+          <folding>
+            <element signature="e#141#203#0" />
+            <element signature="e#513#1184#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/style1/index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="36" selection-end-line="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/FirstPage/FirstPage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="193" column="47" lean-forward="true" selection-start-line="193" selection-start-column="47" selection-end-line="193" selection-end-column="47" />
+        <state relative-caret-position="-547">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
             <element signature="e#1694#2122#0" />
@@ -1398,25 +1297,16 @@
             <element signature="e#7258#7761#0" />
             <element signature="e#7304#7394#0" />
             <element signature="e#7501#7726#0" />
-            <element signature="e#7895#8446#0" />
-            <element signature="e#8520#8671#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/FirstPage/First.scss">
+    <entry file="file://$PROJECT_DIR$/src/styles/style1/first-page.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="117" column="7" lean-forward="true" selection-start-line="117" selection-start-column="7" selection-end-line="117" selection-end-column="7" />
-          <folding>
-            <element signature="e#141#203#0" />
-            <element signature="e#513#1184#0" />
-          </folding>
+        <state relative-caret-position="563">
+          <caret line="355" selection-start-line="355" selection-end-line="355" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/style1/index.scss">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
