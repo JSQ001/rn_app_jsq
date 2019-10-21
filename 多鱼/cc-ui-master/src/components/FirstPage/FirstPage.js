@@ -2,7 +2,7 @@ import React, { Fragment } from 'react';
 import { connect } from 'dva';
 import { Link } from 'dva/router';
 import 'styles/style1/first-page.scss';
-import { Toast } from 'antd-mobile';
+import { Toast, Carousel } from 'antd-mobile';
 import { userLevel } from 'utils/appUtils.js';
 import AddSvg from 'assets/svg/add'
 import CustomServiceSvg from "assets/svg/custom-service";
@@ -158,12 +158,9 @@ class FirstPage extends React.Component {
                     <div className="first-page">
                       <div className="header-area">
                         <img className="logo" src={Logo}/>
-
                         <div className="head-right" onTouchEnd={()=>cs(data)}>
                           <AddSvg/>
-                          <div onTouchEnd={()=>cs(data)}>
-                            <CustomServiceSvg style={{marginLeft:'0.15rem'}}/>
-                          </div>
+                          <CustomServiceSvg/>
                         </div>
                       </div>
                       <div className='page-content'>
@@ -186,27 +183,24 @@ class FirstPage extends React.Component {
                         <div className="content-footer">
                           <div className="content-footer-title">更多服务</div>
                           <div className="nav-items">
-                            <div>
-                              <div className="footer-item" onTouchEnd={()=>{
-                                this.props.history.push({ pathname: '/credit/card' })
-                              }}>
-                                <img className='item-img' src={SH} alt=''/>
-                                <div className="footer-item-text">
-                                  <div className="text-nav-title">多鱼申卡</div>
-                                  <div className="text-nav-tips">免费办理，快速高额</div>
-                                </div>
-                              </div>
-                              <div className="footer-item"  onTouchEnd={()=>{
-                                Toast.info('即将上线，敬请期待！', 2);
-                              }}>
-                                <img className='item-img' src={XJ} alt=''/>
-                                <div className="footer-item-text">
-                                  <div className="text-nav-title">多鱼信检</div>
-                                  <div className="text-nav-tips">快速检测，安全准确</div>
-                                </div>
+                            <div className="footer-item" onTouchEnd={()=>{
+                              this.props.history.push({ pathname: '/credit/card' })
+                            }}>
+                              <img className='item-img' src={SH} alt=''/>
+                              <div className="footer-item-text">
+                                <div className="text-nav-title">多鱼申卡</div>
+                                <div className="text-nav-tips">免费办理，快速高额</div>
                               </div>
                             </div>
-
+                            <div className="footer-item"  onTouchEnd={()=>{
+                              Toast.info('即将上线，敬请期待！', 2);
+                            }}>
+                              <img className='item-img' src={XJ} alt=''/>
+                              <div className="footer-item-text">
+                                <div className="text-nav-title">多鱼信检</div>
+                                <div className="text-nav-tips">快速检测，安全准确</div>
+                              </div>
+                            </div>
 
                             <Link to={ data.authStatus === 'N' ? "/personalAuth/first" : "authSuccess"}>
                               <div className="footer-item">
@@ -228,42 +222,41 @@ class FirstPage extends React.Component {
                             </div>
                           </div>
                         </div>
-                        {/*<div style={{
-                        height:'30vh'
-                      }}>
-                        <Carousel
+
+                        <div className='shop-goods-list'>
+                          <Carousel
                             autoplay
                             infinite
                             dots={false}
                             beforeChange={(from, to) => { this.setState({ imgType: to }) }}>
-                          {carouselList.map((val, index) => (
-                              <Link to={'/shopping/mall'} key={'/shopping/mall'}>
-                                <div style={{
-                                  display: 'block',
-                                  position: 'relative',
-                                  top: slideIndex === index ? -10 : 0,
-                                  height: imgHeight,
-                                  boxShadow: '2px 1px 1px rgba(0, 0, 0, 0.2)',
-                                }}>
-                                  <img
-                                      id='sfzImg'
-                                      key={-index}
-                                      src={val}
-                                      className='sfzImg'
-                                      alt=""
-                                      style={{ width: '100%', verticalAlign: 'top', cursor: 'pointer', }}
-                                      onLoad={() => {
-                                        // fire window resize event to change height
+                              {carouselList.map((val, index) => (
+                                  <Link to={'/shopping/mall'} key={'/shopping/mall'}>
+                                    <div style={{
+                                      display: 'block',
+                                      position: 'relative',
+                                      top: slideIndex === index ? -10 : 0,
+                                      height: imgHeight,
+                                      boxShadow: '2px 1px 1px rgba(0, 0, 0, 0.2)',
+                                    }}>
+                                      <img
+                                          id='sfzImg'
+                                          key={-index}
+                                          src={val}
+                                          className='sfzImg'
+                                          alt=""
+                                          style={{ width: '100%', verticalAlign: 'top', cursor: 'pointer', }}
+                                          onLoad={() => {
+                                            // fire window resize event to change height
 
-                                        window.dispatchEvent(new Event('resize'));
-                                        this.setState({ imgHeight: 'auto' });
-                                      }}
-                                  />
-                                </div>
-                              </Link>
-                          ))}
+                                            window.dispatchEvent(new Event('resize'));
+                                            this.setState({ imgHeight: 'auto' });
+                                          }}
+                                      />
+                                    </div>
+                                  </Link>
+                              ))}
                         </Carousel>
-                      </div>*/}
+                        </div>
                       </div>
 
                       <Footer current='index'/>

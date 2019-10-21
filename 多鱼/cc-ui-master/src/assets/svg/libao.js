@@ -7,6 +7,6 @@ const component = () => (
     </svg>
 );
 
-const LiBaoSvg = props => <Icon component={component} {...props} />;
+const LiBaoSvg = props => <Icon className='footer-icon' component={component} {...props} />;
 
 export default LiBaoSvg;

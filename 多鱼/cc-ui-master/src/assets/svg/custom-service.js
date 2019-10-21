@@ -8,6 +8,6 @@ const component = () => (
     </svg>
 );
 
-const CustomService = ({style}) => <Icon style={{fontSize: '.24rem',...style}} component={component}/>;
+const CustomService = ({style}) => <Icon className='header-icon' component={component}/>;
 
 export default CustomService;

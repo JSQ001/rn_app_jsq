@@ -7,6 +7,6 @@ const component = () => (
     </svg>
 );
 
-const EndSvg = props => <Icon style={{fontSize: '.24rem'}} component={component} {...props} />;
+const EndSvg = props => <Icon className='header-icon' component={component} {...props} />;
 
 export default EndSvg;

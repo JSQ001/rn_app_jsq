@@ -18,7 +18,7 @@ const current = ()=>
 
 
 const HomeSvg = props =>{
-  return <Icon style={props.style} component={props.style.color ? current: component}/>;
+  return <Icon className='footer-icon' style={props.style} component={props.style.color ? current: component}/>;
 };
 
 export default HomeSvg;

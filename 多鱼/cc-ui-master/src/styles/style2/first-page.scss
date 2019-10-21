@@ -28,7 +28,6 @@
     background: linear-gradient(#F08B7D, #ED6450);
     border-radius: 0.833rem;
     padding: 1.417rem 1.333rem 1.667rem;
-    margin-top: 3.667rem;
 
     .bannerTitle{
       display: flex;
@@ -37,79 +36,86 @@
       color: white;
 
       .user-icon{
-        width: 3.333rem;
-        height: 3.333rem;
-        border-radius: 7.5rem;
+        width: .4rem;
+        height: .4rem;
+        border-radius: .675rem;
       }
 
       .user-name{
-        flex-basis: 60%;
-        height: 2rem;
-        font-size: 1.667rem;
-        margin-left: 0.833rem;
+        flex-basis: 2rem;
+        height: .2rem;
+        font-size: .14rem;
+        margin-left: .1rem;
         font-weight: 400;
       }
 
       .user-status{
-        margin-left: auto;
+        flex-basis: 60vw;
+        text-align: right;
         color: #CCCCCC;
-        font-size: 1rem;
+        font-size: .12rem;
         font-family: PingFangSC, monospace;
       }
     }
 
     .bannerLevel{
-      margin: 1.417rem 0 2.417rem;
+      width: 2.17rem;
+      height: .3rem;
+      line-height: .3rem;
+      margin: .17rem 0 0.29rem 0;
       color: white;
-      font-size: 1.833rem;
+      font-size: .18rem;
       font-family: PingFangSC, serif;
       font-weight: 700;
     }
     .bannerShare{
-      //height: .17rem;
-      //line-height: .17rem;
+      height: .17rem;
+      line-height: .17rem;
       color: white;
-      font-size: 1rem;
+      font-size: .12rem;
     }
 
   }
 
   .thread{
     background: #FAFAFA;
-    height: 0.667rem;
-    margin: 0 -1.333rem;
+    height: .08rem;
+    margin: 0 -0.16rem;
   }
 
   .repayCredit{
-    height: 3rem;
-    line-height: 3rem;
+    width: 88vw;
+    height: .36rem;
+    line-height: .38rem;
     background: #EB5E48;
-    border-radius: 1.583rem;
-    margin: 1.833rem auto;
+    border-radius: .19rem;
+
+
+    margin: .23rem auto .18rem;
     text-align: center;
-    font-size: 1.6rem;
+    font-size: .18rem;
     color:white;
     font-weight: 700;
   }
 
   .content-footer{
     .content-footer-title{
-      margin: 1rem 0 1.917rem;
-      font-size: 1.6rem;
+      margin: .12rem 0 0.17rem;
+      font-size: .15rem;
       color: #333333;
       font-weight: 600;
     }
 
     .nav-items{
       .footer-item{
-        width: 50%;
+        width: 43vw;
         display: flex;
         float:left;
         align-items: center;
 
         .item-img{
-          width: 2.75rem;
-          height: 2rem;
+          width: .33rem;
+          height: .24rem;
         }
 
         .footer-item-text{
@@ -118,37 +124,37 @@
           overflow:hidden;
           text-overflow:ellipsis;
           white-space:nowrap;
-          margin-left: .833rem;
+          margin-left: .1rem;
 
           .text-nav-title{
-            width: 4.667rem;
-            height: 2rem;
-            font-size: 1.5rem;
+            width: .56rem;
+            height: .2rem;
+            font-size: .125rem;
             color: #333333;
           }
           .text-nav-tips{
-            //width: 1.417rem;
-            height: 1.8rem;
-            font-size: 1rem;
+            width: 1.08rem;
+            height: .17rem;
+            font-size: .1rem;
             overflow: auto;
             color: #666666;
           }
+
         }
       }
+
       .footer-item:nth-child(2), .footer-item:nth-child(4){
-        padding-left: 1rem;
+        margin-left: 0.1rem;
       }
     }
+
+
+
   }
 
-  .shop-goods-list{
-    margin-top: 12rem;
-    .slider-frame{
-      border-radius: 1rem;
-    }
+  .slider-frame{
+    border-radius: 1rem;
   }
-
-
 }
 
 
@@ -211,7 +217,7 @@
 .select p {
   margin-bottom: 0px
 }
-/*.one,.two,.three{
+.one,.two,.three{
   width: 33.33%;
   border-right: 0.083rem solid #00000012;
   text-align: center;
@@ -223,7 +229,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}*/
+}
 .productHome{
   width: 100vw;
   display: flex;
@@ -267,6 +273,19 @@
   background: #F6F6F6;
 }
 
+
+
+.one1,.two1,.three1{
+  width: 33.33%;
+  height: 64px;
+  /* border-right:0.083rem solid #00000012; */
+  box-sizing: border-box;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
 .product{
   font-size: 14px;
