@@ -292,32 +292,6 @@
     padding-right: 0.833rem;
 }
 
-//每日晋升页面
-.my-daily-promotion{
-    width: 100vw;
-    background: #EDDACA;
-    background-size: 100% 100%;
-    top: 0;
-    bottom: 5rem;
-
-    .banner-item-name{
-        color: #D0AD85
-    }
-
-    table {
-        border-collapse:collapse;
-    }
-    table, td, th {
-        border:0.083rem solid #EDDACA;
-        padding: 0.833rem;
-        width: 83vw;
-        text-align: center;
-    }
-    .table-header{
-        background: #FBE4C8;
-    }
-}
-
 
 .person-center-detail .am-list-item{
     border-bottom: 0.083rem solid rgb(243,243,243);

@@ -1,15 +1,14 @@
 import React from 'react';
 import { connect } from 'dva';
-import { Toast,Modal } from 'antd-mobile';
+import { Toast, Modal } from 'antd-mobile';
 import levelFlag from 'assets/img/vip/HY_Zs@3x.png';
-import back from 'assets/忘记密码/返回.png';
 import flag1 from 'assets/img/vip/HY_ICO1@2x.png';
 import flag2 from 'assets/img/vip/HY_ICO2@2x.png';
 import flag3 from 'assets/img/vip/HY_ICO3@2x.png';
 import flag4 from 'assets/img/vip/HY_ICO4@2x.png';
 import lihe from 'assets/img/goods/cuxiaolihe.png';
 import {userLevel} from '../../utils/appUtils.js';
-import './Personal.scss'
+import 'styles/style1/myself-interests.scss'
 import PageHeader from "../common/layout/page-header";
 
 class MyselfInterests extends React.Component {
